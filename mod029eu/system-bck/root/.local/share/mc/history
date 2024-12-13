@@ -1,0 +1,28 @@
+[cmdline]
+0=
+
+[input2]
+0=/opt/stratux/www/
+
+[input-def]
+0=*
+
+[Dir Hist New Right Panel]
+0=/home
+1=/
+2=/opt
+3=/opt/stratux
+4=/opt/stratux/www
+5=/home/pi
+
+[Dir Hist New Left Panel]
+0=/opt
+1=/opt/stratux
+2=/opt/stratux/www
+3=/opt/stratux/www/plates
+4=/home/pi/TEMP
+5=/etc
+6=/home/pi
+7=/home
+8=/
+9=/boot

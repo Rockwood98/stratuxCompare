@@ -1,0 +1,14 @@
+f21172ff3c455a56e9f25505e7f707b3  usr/bin/camera-bug-report
+281217166cf8f3ba07e9dd30d8d5e52a  usr/bin/libcamera-hello
+e7bb4c695981fa4154cf7fa11e34ce6b  usr/bin/libcamera-jpeg
+3322aad91175227edbbb2d8e31648af6  usr/bin/libcamera-raw
+8e7f908fd3633c3234d9a4c75461abaa  usr/bin/libcamera-still
+fc9f68e3ecf3590c97f8a6f5cfac2143  usr/bin/libcamera-vid
+79a03bbb0b63fe45ce23c1585cfacd5c  usr/lib/aarch64-linux-gnu/libcamera_app.so
+8c7a79ba6e35d571ff34f134fbbb9766  usr/lib/aarch64-linux-gnu/libencoders.so
+fd943934461b8ea5f760866c7894ee7d  usr/lib/aarch64-linux-gnu/libimages.so
+db4a51cdf44794eff3276b09a3364452  usr/lib/aarch64-linux-gnu/liboutputs.so
+ddda9de15b594e3ca084c95a4b3cf1b2  usr/lib/aarch64-linux-gnu/libpost_processing_stages.so
+8cfa2940520f0ead40c7bfdd156698c8  usr/lib/aarch64-linux-gnu/libpreview.so
+2547297a90e13bd07abf8306ba19c691  usr/share/doc/libcamera-apps-lite/changelog.Debian.gz
+30e0d30d3ee14da82dc06a379e9117d8  usr/share/doc/libcamera-apps-lite/copyright

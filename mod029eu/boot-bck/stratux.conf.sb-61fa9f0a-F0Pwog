@@ -1,0 +1,112 @@
+{
+  "DarkMode": false,
+  "UAT_Enabled": false,
+  "ES_Enabled": true,
+  "OGN_Enabled": true,
+  "APRS_Enabled": true,
+  "AIS_Enabled": false,
+  "Ping_Enabled": false,
+  "GPS_Enabled": true,
+  "BMP_Sensor_Enabled": true,
+  "IMU_Sensor_Enabled": true,
+  "NetworkOutputs": [
+    {
+      "Conn": null,
+      "Ip": "",
+      "Port": 4000,
+      "Capability": 5,
+      "LastPingResponse": "0001-01-01T00:00:00Z",
+      "LastUnreachable": "0001-01-01T00:00:00Z",
+      "SleepFlag": false
+    },
+    {
+      "Conn": null,
+      "Ip": "",
+      "Port": 2000,
+      "Capability": 8,
+      "LastPingResponse": "0001-01-01T00:00:00Z",
+      "LastUnreachable": "0001-01-01T00:00:00Z",
+      "SleepFlag": false
+    },
+    {
+      "Conn": null,
+      "Ip": "",
+      "Port": 49002,
+      "Capability": 18,
+      "LastPingResponse": "0001-01-01T00:00:00Z",
+      "LastUnreachable": "0001-01-01T00:00:00Z",
+      "SleepFlag": false
+    }
+  ],
+  "SerialOutputs": {
+    "/dev/serialout_nmea0": {
+      "DeviceString": "/dev/serialout_nmea0",
+      "Baud": 115200,
+      "Capability": 8
+    }
+  },
+  "DisplayTrafficSource": false,
+  "DEBUG": false,
+  "ReplayLog": false,
+  "TraceLog": false,
+  "AHRSLog": false,
+  "PersistentLogging": false,
+  "IMUMapping": [
+    -1,
+    0
+  ],
+  "SensorQuaternion": [
+    0.025880857578403027,
+    0.0000422723062988583,
+    -0.9996637001563106,
+    0.0016327932720482594
+  ],
+  "C": [
+    0.047477034821619316,
+    -0.0029932554094058046,
+    -0.916295052949614
+  ],
+  "D": [
+    -2.1687978759117406,
+    0.2456740012817774,
+    -1.3730277413251137
+  ],
+  "PPM": 0,
+  "AltitudeOffset": 0,
+  "OwnshipModeS": "F00000",
+  "WatchList": "",
+  "DeveloperMode": true,
+  "GLimits": "",
+  "StaticIps": [],
+  "WiFiCountry": "",
+  "WiFiSSID": "FOXTRAL",
+  "WiFiChannel": 11,
+  "WiFiSecurityEnabled": false,
+  "WiFiPassphrase": "",
+  "NoSleep": false,
+  "WiFiMode": 0,
+  "WiFiDirectPin": "",
+  "WiFiIPAddress": "192.168.1.1",
+  "WiFiClientNetworks": [
+    {
+      "SSID": "4aviation",
+      "Password": "!4aviation!"
+    }
+  ],
+  "WiFiInternetPassThroughEnabled": false,
+  "EstimateBearinglessDist": true,
+  "RadarLimits": 50000,
+  "RadarRange": 2,
+  "OGNI2CTXEnabled": true,
+  "OGNAddr": "4AFFFF",
+  "OGNAddrType": 3,
+  "OGNAcftType": 8,
+  "OGNPilot": "FOXTRAL",
+  "OGNReg": "FOXTRAL",
+  "OGNTxPower": 20,
+  "GXAddr": 0,
+  "GXAddrType": 0,
+  "GXAcftType": 0,
+  "GXPilot": "",
+  "PWMDutyMin": 21
+}

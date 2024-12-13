@@ -1,0 +1,27 @@
+default-duid "\000\001\000\001*1bJ\270'\353\372<\363";
+lease {
+  interface "wlan0";
+  fixed-address 192.168.100.62;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 259200;
+  option routers 192.168.100.1;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.100.1;
+  option domain-name-servers 194.153.119.3,8.8.8.8;
+  renew 3 2023/11/22 16:20:20;
+  rebind 5 2023/11/24 03:46:29;
+  expire 5 2023/11/24 12:46:29;
+}
+lease {
+  interface "wlan0";
+  fixed-address 192.168.100.62;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.100.1;
+  option dhcp-lease-time 259200;
+  option dhcp-message-type 5;
+  option domain-name-servers 194.153.119.3,8.8.8.8;
+  option dhcp-server-identifier 192.168.100.1;
+  renew 3 2023/11/22 18:31:36;
+  rebind 5 2023/11/24 05:17:20;
+  expire 5 2023/11/24 14:17:20;
+}

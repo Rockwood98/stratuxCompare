@@ -1,0 +1,24 @@
+Dec  1 09:17:05 FOXTRAL mtp-probe: checking bus 1, device 6: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5"
+Dec  1 09:17:05 FOXTRAL mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Dec  1 09:17:05 FOXTRAL mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2"
+Dec  1 09:17:05 FOXTRAL mtp-probe: bus: 1, device: 4 was not an MTP device
+Dec  1 09:17:05 FOXTRAL mtp-probe: bus: 1, device: 6 was not an MTP device
+Dec  1 09:17:05 FOXTRAL mtp-probe: checking bus 1, device 5: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Dec  1 09:17:05 FOXTRAL mtp-probe: bus: 1, device: 5 was not an MTP device
+Dec  1 09:17:05 FOXTRAL mtp-probe: bus: 1, device: 3 was not an MTP device
+Dec  1 09:17:05 FOXTRAL udisksd[429]: udisks daemon version 2.9.2 starting
+Dec  1 09:17:06 FOXTRAL udisksd[429]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Dec  1 09:17:06 FOXTRAL udisksd[429]: Failed to load the 'mdraid' libblockdev plugin
+Dec  1 09:17:07 FOXTRAL udisksd[429]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Dec  1 09:17:05 FOXTRAL mtp-probe: checking bus 1, device 5: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Dec  1 09:17:05 FOXTRAL mtp-probe: bus: 1, device: 5 was not an MTP device
+Dec  1 09:17:05 FOXTRAL mtp-probe: checking bus 1, device 6: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5"
+Dec  1 09:17:05 FOXTRAL mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Dec  1 09:17:05 FOXTRAL mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2"
+Dec  1 09:17:05 FOXTRAL mtp-probe: bus: 1, device: 4 was not an MTP device
+Dec  1 09:17:05 FOXTRAL mtp-probe: bus: 1, device: 6 was not an MTP device
+Dec  1 09:17:05 FOXTRAL mtp-probe: bus: 1, device: 3 was not an MTP device
+Dec  1 09:17:05 FOXTRAL udisksd[391]: udisks daemon version 2.9.2 starting
+Dec  1 09:17:06 FOXTRAL udisksd[391]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Dec  1 09:17:06 FOXTRAL udisksd[391]: Failed to load the 'mdraid' libblockdev plugin
+Dec  1 09:17:07 FOXTRAL udisksd[391]: Acquired the name org.freedesktop.UDisks2 on the system message bus

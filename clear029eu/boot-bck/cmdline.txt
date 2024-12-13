@@ -1,0 +1,1 @@
+systemd.restore_state=0 rfkill.default_state=1 console=tty1 root=PARTUUID=8863492f-02 rootfstype=ext4 fsck.repair=yes rootwait ro init=/sbin/init-overlay

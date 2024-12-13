@@ -1,0 +1,379 @@
+*************************************************************************
+V1.2.3 
+added support for sending messages to other known devices via webinterface
+Radar screen: device-names will be cutted to 10 characters max.
+
+V1.2.4
+enabled option for sending messages to all detected devices via webinterface
+limited the text message to 66 characters max.
+
+V1.2.5
+added support for OGN-Live-Tracking
+
+V1.3.0
+added support for GY-86-module (MS5611 baro, HMC5883L compass ,MPU6050 6-axis acc/gyro ) on Pin 13 SDA and ping 14 SCL (second i2c)
+added support for 2.9' e-ink-display --> have to remove 2 resistors (R17,R20 near Lora-Chip left bottom side)
+
+V1.3.1
+added flight-time recorder to e-ink, some changes on e-ink display
+Bugfix in e-ink wiring.
+
+V1.3.2
+added Button 2 (GPIO-38) for switching off and on buzzer (long-click to adjust volume)
+
+V1.3.3
+wifi-timeout set 10sec. --> 60sec.
+
+V1.3.4
+added icon for flying and not flying in e-ink.
+removed max-Option for Fanet
+Bugfix tx-count of Fanet
+Bugfix in GS-Mode
+
+V1.3.5
+cleanup fullsettings.html
+cleanup some code
+
+V1.4.0
+
+added support for sending FANET-MSG via serial,bluetooth-serial and ble interface.
+Transmit: #FNT type,dest_manufacturer,dest_id,forward,ack_required,length,length*2hex[,signature]
+https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt
+
+V1.4.1
+improved screens with bluetooth-symbols
+on Boards without ps-ram, only wifi or bluetooth is avaiable not both at same time --> 
+specify wifi-off-time and after this time wifi will be switched off an bluetooth will be switched on.
+updated settings.html to choose off-time for wifi.
+
+V1.4.2
+fixed overlap-value in main-screen of oled
+
+V1.4.3
+Fix bug in connection of bluetooth-serial and bluetooth-ble
+alternate msg-format for sending textmsg @000000,testmsg @id,msg
+
+V1.4.4
+added broatcast-msg for fanet (just type msg and press send.)
+
+V1.4.5
+Bugfix with PS-ram
+added support for TTGO ESP32-Paxcounter TTGO T3_V1.6
+
+V1.4.6
+set IO4 to output and High, so that red-led on T-Beam V1.1 is off.
+
+V1.5.0
+added support vor T-Beam V1.1 (Bugfix on GPS M6N)
+2 different firmware
+    one for devices wiwithoutth psram (Heltec / TTGO-Lora)
+    one for devices with psram (TTGO T-Beam V07 V1.0 V1.1)
+when loading wrong version device may hang in a infinite loop
+
+V1.5.1
+Bugfix on Wifi-Connect setting
+
+V1.5.2
+Bugfix random Crash caused by i2c
+
+V1.5.3
+Fixed issue with ogn (gliderradar.com)
+added db to send-values for OGN-received aircrafts
+set wifi-reconnect-timeout 60sec. --> 10min. --> so it should be possible to connect via hotspot and change settings.
+
+V1.5.4
+new calculation of snr- for ogn.
+As Lora, the snr-value goes from -10dB to 20dB we send the inverted rssi-signal, where 120 ist best and 0 is worst signal strength.
+
+V1.6.0
+Added legacy-Mode
+added Traccar tracking
+
+V1.7.0
+Legacy-Mode Bugfix --> now working directly with OGN-Ground-Station (Raspberry-pi and RTL-SDR-Dongle)
+BME280 and BMP280 are now supported as baro-sensor.
+in Ground-Station-Mode weather-data can be transmitted, if a BME280 is connected to the baro-pins (wind-sensor is not yet implemented)
+hostname will be set, so you can ping the device with gxaircom-07XXXX (XXXX --> device-id)
+improved screen switching (is now much faster (more responsive))
+
+V1.7.1
+Bugfix with signal strength on OGN-Tracking
+
+V1.7.2
+Bugfix (esp crashed randomly when used with baro)
+
+V1.7.3
+included DS18B20 for Temperature of weatherstation (optional) (on Heltec/TTGO-Lora32 Board only at the moment (PIN22))
+added upload of weather-data for weather-underground
+
+V1.7.4
+added support for sending weather-data from WU over FANET (WU-->FANET bridge) in Ground-station-mode
+
+V1.7.5
+added support for Aneometer (Davis 6410)
+added support for rain-sensor VENTUS W174 
+new info-page
+
+V1.8.0
+source-cleanup
+added support for SIM800L-ground-station(pin-descrition --> see readme.txt)
+
+V1.9.0
+added support for weather-upload to windy
+Bugfix with OGN-tracking
+added new Feature for oled (Power-option) on ground-Station
+added new Feature for Power-save on ground-station
+increased mtu-size for ble
+battery-empty delay of 60seconds --> battery-voltage has to be 60sec. below min. then poweroff is triggered.
+
+V1.9.1
+added 3min. delay after startup for powersave, to have a chance to change settings.
+added support of DAVIS-Aneometer for ttgo T-SIM7000
+added support of BME280 for ttgo T-SIM7000
+added support of DS18B20 for ttgo T-SIM7000
+added support of rain-gauge for ttgo T-SIM7000
+Bugfix on sleep-mode (device did not wake up)
+
+V2.0.0
+added wifi-signal strength to info-page
+added GSM-signal strength to info-page
+improvements in gs-mode for power-consumption in sleep-mode
+
+V2.0.1
+changed ble MTU-Size to 256
+changed gateway 192.168.4.250 -> 192.168.4.1
+
+V2.1.0
+added accelerometer for better vario
+added temp-offset for vario
+added config-button for ublox-GPS --> only GPGGA and GPRMC will sent --> much less traffic
+added new configuration extpw (external power switch on Pin 36) --> to use directly in kobo (without display)
+added new setting "additional output over serial" to send data to serial and  2.device (ble, ...) so if installed on kobo, you can connect with bluetooth at same time (running xctrack or xcguide)
+
+V2.2.0
+added new setting to set FANET-Mode (always air-mode / switch between air-mode and ground-mode).
+sending ground-tracking-data to OGN
+sending weather-data to OGN
+forward ground-tracking-data to OGN
+forward fanet-name to OGN
+
+V3.0.0
+!!!! ATTENTION !!!
+PIN Buzzer changed from 0 to 25
+added restriction for ground-station name in webinterface
+fanet-weather-data will also be forwarded to OGN. --> https://www.gliderradar.com/
+
+V3.1.0
+fixed bug of psram
+fixed bug OGN-Tracking
+Add temp-compensation Z-Axis for MPU6050
+
+V3.1.1
+new Lib for bluetooth-Le
+removed bluetooth-serial saving space
+
+V3.2.1
+added FANET-Pin (for further control of device over FANET-MSG's)
+added more data for OGN (batt-voltage, pressure, temp, humidity)
+added "#FNG (0..F)\n" message for setting Ground-tracking type
+
+V3.2.2
+added multi-ble-support (for example, connect with XCTrack and at same time also with XCGuide)
+added Battery-Type 12V-lead for ground-station
+added weather-data to webinterface to display up to 10 received fanet-weather-stations
+
+V4.0.0
+only 4 different Firmwares anymore, cause of new bluetooth-lib, it can do all variations in one Firmwares
+added system-commands for changing mode, name, type, read Version via serial, and bluetooth
+automatic-board-detection implemented.
+#SYC VER?   get Version
+#SYC NAME?  get Pilot/Ground-station name
+#SYC NAME=TEST  set Pilot/Ground-station name
+#SYC TYPE?  get AircraftType (0..7)
+#SYC TYPE=1 set AircraftType
+#SYC AIRMODE? get fanet-mode (0,1) 0... automatic switch between ground-tracking and air-tracking, 1... always air-tracking
+#SYC AIRMODE=1 set fanet-mode to send always air-tracking-data
+#SYC MODE? get mode of operation (0,1)
+#SYC MODE=1 set mode of operation to ground-station 0...Air-Module 1...Ground-station
+#SYC OUTMODE? get output-mode
+#SYC OUTMODE=3 set output-mode to bluetooth 0...Serial, 1...UDP, 3...bluetooth
+#SYC DOUPDATE trigger a version-check and update to new firmware, if avaiable
+
+V4.1.0
+added support for update module directly without download firmware and spiffs on firmware update-page
+#SYC NAME?  get Pilot/Ground-station name
+#SYC NAME=TEST  set Pilot/Ground-station name
+
+V4.2.0
+added support, to send system-command via FANET
+msg hat following format:
+PXXXX#SYC ....     XXXX ... fanet-pin from settings after that send normal #SYC-msg
+useful, to switch on WIFI or to get Version.
+
+V4.2.1
+Bugfix: display-type was not changeable in settings
+
+V4.2.2
+Bugfix: neighbours.html had no function anymore
+
+V4.2.3
+Bugfix: changing fanet-pilotname with #SYC -command immediately
+Bugfix: changing fanet-aircrafttye with #SYC -command immediately
+
+V4.3.0
+improved neighbours.html -> shows now also ground-tracking and distance
+improved weather.html -> shows also distance
+bugfix OGN-weatherdata without rain and baro.
+
+V4.3.1
+bugfix sending tracking-data to OGN
+weather-data, try to read BME 5 times in case, values are not valid (outside range)
+
+V4.3.2
+bugfix showing name in neighbours.html was wrong (showing name of weatherstation)
+
+V4.3.3
+bugfix sending fanet-position-data at startup before GPS signal is valid.
+
+V4.3.4
+bugfix when switching to OLED-Display-Type
+
+v4.4.0
+added new lib acebutton for using buttons of boards (click and long-press)
+new Feature, prg-Button used on Heltec-Board for Power-Off and screen-switch
+
+v4.5.0
+added fuel-sensor (only measure voltage on pin39) and send it as "$FUEL,1.234\r\n"
+
+v4.5.1
+added Checksum to fuel-sensor-data
+
+v4.6.0
+added view for settings (basic, advanced, expert)
+added avgfactor for sending weather-data
+added adjustable intervall for upload weather-data to WU
+
+v4.6.1
+Bugfix in windgust-calculation
+
+v4.7.0
+New Feature: send and receive Fanet and Legacy (switching between 1.9sec Legacy-Mode 3sec. Fanet-Mode)
+PinBuzzer for TTGO T-Beam V0.7 and Heltec changed from 0 to 25
+added Log-Output for weather-station
+added restart after configuring GPS
+added auto-refresh of neighbours.html and weather.html with a cycle of 10seconds.
+Bugfix Legacy-Rx 
+Bugfix Legacy-Rx stealth-mode
+support for T-Beam with SX1262-Chip (ATTENTION --> at the moment no E-Ink for this board)
+automatic detection of T-Beam with SX1262-Chip
+Bugfix Legacy-speeed
+Bugfix Legacy-vertial-speed
+Bugfix OGN-Live-Tracking for Legacy-received data.
+Bugfix in receiving with SX1276
+Changed Timing for simultaneoulsy Fanet-Legacy-Mode
+added Info in neighbours.html, if message was a FANET or LEGACY
+adjusted frequencys
+better settings.html with response for calibration-buttons
+Setting of Kalman-Filter for Vario are in advanced-settings-view
+added STL for kobo glo and kobo touch.
+Fix Bluetooth-connection crashes ESP32 --> implemented new nimble v1.20
+Stopped ble-function on firmware-update, otherwise esp can crash
+Bugfix esp-crash caused by watchdog --> set bar-prio below standard-task
+Bugfix Webinterface
+New calibration-method for acc (checking offsets and scale with 6 axis-rotation)
+extendet fmac to hold also Legacy-Aircraft-types
+New setting RF-Mode for Legacy and FANET
+added Counter for Legacy-rx/tx
+
+v4.8.0
+added support for Waveshare 2.9 E-Ink V2 (see Label on Backside of E-Ink)
+added average for fuel-sensor
+added setting for rain-sensor connected
+
+v4.9.0
+added new protocol LXWP0 for support of XCSoar
+
+v4.10.0
+added some checks, when forwarding FANET-Weatherstations
+added local IP in info.html
+added some checks for Legacy
+changed Strings to char-array (much faster)
+
+v4.10.1
+time for autocalibration of sx1276 changed 1sek. --> 5min.
+
+v4.11.0
+new systemcommands over bluetooth
+#SYC RFMODE?  get RF-Mode
+#SYC RFMODE=11  set RF-Mode
+                Bit 0 .... FANET Receive enable
+                Bit 1 .... FANET Transmit enable
+                Bit 2 .... Legacy Receive enable
+                Bit 3 .... Legacy Transmit enable
+                default 11 --> Fanet Receive/Transmit and Legacy-Transmit
+added random switching of Fanet to Legacy (every 3,4,5 second) to be sure, that we receive also fanet.
+forced groundspeed of 1kmh when in air-mode.
+forced groundspee to 0kmh when on-ground.
+
+v4.11.1
+BLE GPS-Bug when sending GPS-Data via bluetooth to heltec-board (xcguide)
+
+v4.11.2
+Bugfix in ble-command #SYC RFMODE=
+
+v4.12.0
+added setting to adjust battery-voltage
+bugfix bluetooth GPS no Fix (xcguide)
+added support for E-Ink on ground-Station (T-Sim7000)
+added battery-life-power-option (going to deep-sleep if battery-capacity is below min., restart, if battery-capacity is over min. plus additional capacity.)
+added rotation for E-Ink
+added batter-percent to info-page
+added support for TTGO T-Call (still in process)
+
+v4.13.0
+changed button for Volume-control on TTGo T3 to PIN 2
+New Code for SX1276 and SX1262 --> improved time to switch between Modes
+E-Ink for T-Beam SX1262 is now supported (but only in Air-Mode). (some Pins need to be changed)
+Updated E-Ink-Lib for supporting Waveshare 2.9 V2-Modules
+
+V4.14.0
+added support for MQTT for Ground-Station (change settings, ....)
+bugfix receiving legacy of GXAirCom-Devices (OGN-Devices) was blocked
+bugfix receiving legacy of GXAirCom-Devices time was not set by GPS
+bugfix receiving FANET (CRC was not checked)
+
+V4.15.0
+Using GPS for Ground-Station (only active, when lat and lon in settings 0)
+Added GPS-Output for Ground-Station
+changed calibration-routine (added much better solution)
+BLE improvements
+
+V4.16.0
+Bugfix Aircrafttype Burnair
+Sending altitude also in ground-tracking.
+  when Flarm-receive, altitude is ok
+  when Fanet-receive, no altitude given
+Bugfix on T-Beam V07 for Baro-SDL and SCL --> Changed Pins back to 13,14
+
+V5.0.0
+new Flarm-integration for sending compatible Flarm-packages
+added upload fanet-weatherstation to weather-underground and windy (up to 5)
+added support for Technoline TX20-Aneometer
+ATTENTION new parameter for weatherstation.
+If Ground-station should be a weatherstation, parameter has to be switched on.
+Also it is possible, to set optional BME280 and rain-sensor for weather-station, so a weather-station can be only with wind-sensor
+When BME280 can't be read or has faulty data, only wind will be sent to FANET or WU/WI.
+
+v5.2.0
+added support for ADS1015 and Peet Bros weather-station
+set MQTT timestamp to ISO860
+send MQTT weather-data according to existing sensors
+
+v5.3.0
+added worldwide FANET-frequencys
+added worldwide Flarm-frequencys
+Flarm outside europe is only working with GPS (and PPS-Signal like TTGO T-Beam),
+ because of frequency-hoping (not well tested yed (outside europe))
+
+V5.3.4
+added raw vaneValue of weatherstation to mqtt-data. For detecting, when analog-read is not working anymore

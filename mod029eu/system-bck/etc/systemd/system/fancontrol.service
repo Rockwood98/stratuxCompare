@@ -1,0 +1,13 @@
+[Unit]
+Description=cooling fan speed control based on CPU temperature
+Requires=
+After=
+
+[Service]
+PIDFile=/var/run/fancontrol.pid
+ExecStartPre=/bin/rm -f /var/run/fancontrol.pid
+ExecStart=/opt/stratux/bin/fancontrol 
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

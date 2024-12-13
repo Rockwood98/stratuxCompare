@@ -1,0 +1,328 @@
+2023/12/01 09:17:06  - stratux-wifi.sh - Running Stratux WiFI Script.
+2023/12/01 09:17:06  - stratux-wifi.sh - Killing wpa_supplicant AP services 
+2023/12/01 09:17:06  - stratux-wifi.sh - Stopping DHCP services 
+2023/12/01 09:17:09  - stratux-wifi.sh - Restarting DHCP services
+2023/12/01 09:17:11  - stratux-pre-start.sh - Running Stratux Updater Script.
+2023/12/01 09:17:11  - stratux-pre-start.sh - Exited without updating anything...
+2023/12/01 09:17:11 read in settings.
+2023/12/01 09:17:11 Stratux v1.6r1-eu029 (94438ef601f541f3ebd5782819bee09ac7d65a3f) starting.
+2023/12/01 09:17:11 Developer mode set
+2023/12/01 09:17:11 Entered uatReader() ...
+2023/12/01 09:17:11 client connected: 192.168.1.18:4000 ().
+2023/12/01 09:17:11 client connected: 192.168.1.18:2000 ().
+2023/12/01 09:17:11 client connected: 192.168.1.18:49002 ().
+2023/12/01 09:17:15 MPU detected (68).
+2023/12/01 09:17:16 setting system time from 20231201 09:17:16.055 to: '20240124 14:03:38.100 UTC'
+2024/01/24 14:03:38 Time set from GPS. Current time is 2024-01-24 14:03:38.104894843 +0000 GMT m=+4.701262604
+2024/01/24 14:03:38 GPS Attitude: Not enough points to calculate vertical speed from NMEA GGA messages
+2024/01/24 14:03:39 ===== ES Device Serial: 00000001 PPM 0 =====
+2024/01/24 14:03:39 ===== OGN Device Serial: 00000001 PPM 0 =====
+2024/01/24 14:03:39 Entered OGN read() ...
+2024/01/24 14:03:39 Entered ES read() ...
+2024/01/24 14:03:39 Executed /opt/stratux//bin/dump1090 --fix --gain 37.2 --net-stratux-port 30006 --net --device-index 0 --ppm 0 successfully...
+2024/01/24 14:03:39 OGN: Executed ogn-rx-eu successfully...
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Address        = 0x4AFFFF; # [24-bit]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  AddrType       = 0x3; #  [2-bit]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  AcftType       = 0xF; #  [4-bit]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  CONbaud        = 115200; #  [  bps]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  CONprot        = 0xF; #  [ mask]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  TxPower        = +20; #  [  dBm]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  TxHW           = 1; #  [ bool]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  FreqPlan       = 0; #  [ 0..5]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  FreqCorr       = +0.0; #  [  ppm]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  TempCorr       = +0; #  [ degC]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  PressCorr      = +0.0; #  [   Pa]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  TimeCorr       = +0; #  [    s]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  GeoidSepar     = +40.0; #  [    m]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  manGeoidSepar  = 0; #  [  1|0]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  NavMode        = 0; #  [ 0..7]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  NavRate        = 0; #  [  1,2]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Verbose        = 0x01; #  [ 0..3]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  GNSS           = 0x67; #  [ mask]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  PageMask       = 0x00FF; #  [ mask]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  PPSdelay       = 100; #  [   ms]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Pilot          = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Manuf          = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Model          = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Type           = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  SN             = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Reg            = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  ID             = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Class          = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Task           = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Base           = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  ICE            = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  PilotID        = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Hard           = FXTL; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Soft           = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Crew           = ; #  [char]
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  DataServer[30010]: now listen
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  Decode server started on port 30010
+2024/01/24 14:03:39 OGN: ogn-rx-eu stdout:  HTTP_Server.Exec() ... Start
+2024/01/24 14:03:40 OGN: ogn-rx-eu stdout:  HTTP_Server.Exec() ... Listening on port 8082
+2024/01/24 14:03:40 OGN: ogn-rx-eu stdout:  RFM95 setup: RF chip version: 0x12
+2024/01/24 14:03:40 OGN: ogn-rx-eu stderr:  Found Rafael Micro R820T tuner
+2024/01/24 14:03:40 OGN: ogn-rx-eu stderr:  Exact sample rate is: 2000000.052982 Hz
+2024/01/24 14:03:40 ogn-rx-eu successfully connected
+2024/01/24 14:03:40 OGN: ogn-rx-eu stdout:  RTLSDR::Open(1,868800000,2000000) => Generic RTL2832U OEM,  868.809 MHz, 2.000 Msps
+2024/01/24 14:03:40 OGN: ogn-rx-eu stdout:  RTLSDR::Gain[29] =  +0.0  +0.9  +1.4  +2.7  +3.7  +7.7  +8.7 +12.5 +14.4 +15.7 +16.6 +19.7 +20.7 +22.9 +25.4 +28.0 +29.7 +32.8 +33.8 +36.4 +37.2 +38.6 +40.2 +42.1 +43.4 +43.9 +44.5 +48.0 +49.6 [dB]
+2024/01/24 14:03:40 OGN: ogn-rx-eu stdout:  DataServer[30010]: accept client: 14 (1 clients on the list)
+2024/01/24 14:03:40 OGN: ogn-rx-eu stdout:  LoRaWAN AppEUI:70B3D57ED0035895 DevEUI:4CE20000FF9DCAA9 DevNonce:00000000 State:0 AppKey:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF New device: needs to be registered
+2024/01/24 14:03:40 OGN: ogn-rx-eu stdout:  Open RTLSDR[1]
+2024/01/24 14:03:41 Parsing OGN device db
+2024/01/24 14:03:42 Successfully parsed OGN device db
+2024/01/24 14:03:43 opened serialout: Name: /dev/serialout_nmea0, Baud: 115200
+2024/01/24 14:04:03 stats [started: 30 seconds ago]
+2024/01/24 14:04:03  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:04:03  - CPUTemp=41.86 [31.63 - 41.86] deg C, MemStats.Alloc=8.5 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=594
+2024/01/24 14:04:03  - UAT/min 0/0 [maxSS=0.00%], ES/min 0/0, Total traffic targets tracked=4
+2024/01/24 14:04:03  - Network data messages sent: 589 total.  Network data bytes sent: 19493 total.
+2024/01/24 14:04:03  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (10/10 seen/tracked), NACp: 10, est accuracy 6.40 m
+2024/01/24 14:04:03  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 7.8500004 m
+2024/01/24 14:04:03  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:04:03 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:04:03 client connected: 192.168.1.41:4000 (android-f760d860b32a48a6).
+2024/01/24 14:04:03 client connected: 192.168.1.41:2000 (android-f760d860b32a48a6).
+2024/01/24 14:04:03 client connected: 192.168.1.41:49002 (android-f760d860b32a48a6).
+2024/01/24 14:04:33 stats [started: 1 minute ago]
+2024/01/24 14:04:33  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:04:33  - CPUTemp=45.62 [31.63 - 45.62] deg C, MemStats.Alloc=9.3 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=2,221
+2024/01/24 14:04:33  - UAT/min 0/0 [maxSS=0.00%], ES/min 5/5, Total traffic targets tracked=5
+2024/01/24 14:04:33  - Network data messages sent: 2204 total.  Network data bytes sent: 77972 total.
+2024/01/24 14:04:33  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (10/10 seen/tracked), NACp: 10, est accuracy 6.55 m
+2024/01/24 14:04:33  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 9.35 m
+2024/01/24 14:04:33  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:04:33 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:05:03 stats [started: 1 minute ago]
+2024/01/24 14:05:03  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:05:03  - CPUTemp=47.77 [31.63 - 47.77] deg C, MemStats.Alloc=8.8 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=3,904
+2024/01/24 14:05:03  - UAT/min 0/0 [maxSS=0.00%], ES/min 5/5, Total traffic targets tracked=5
+2024/01/24 14:05:03  - Network data messages sent: 3875 total.  Network data bytes sent: 136811 total.
+2024/01/24 14:05:03  - Last GPS fix: now, GPS solution type: 1 using 6 satellites (9/10 seen/tracked), NACp: 10, est accuracy 7.85 m
+2024/01/24 14:05:03  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.15 m
+2024/01/24 14:05:03  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:05:03 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:05:33 stats [started: 1 minute ago]
+2024/01/24 14:05:33  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:05:33  - CPUTemp=49.39 [31.63 - 49.39] deg C, MemStats.Alloc=8.2 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=5,566
+2024/01/24 14:05:33  - UAT/min 0/0 [maxSS=0.00%], ES/min 1/5, Total traffic targets tracked=5
+2024/01/24 14:05:33  - Network data messages sent: 5527 total.  Network data bytes sent: 195001 total.
+2024/01/24 14:05:33  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (10/10 seen/tracked), NACp: 10, est accuracy 6.50 m
+2024/01/24 14:05:33  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8 m
+2024/01/24 14:05:33  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:05:33 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:06:03 stats [started: 2 minutes ago]
+2024/01/24 14:06:03  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:06:03  - CPUTemp=50.46 [31.63 - 51.00] deg C, MemStats.Alloc=7.4 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=7,212
+2024/01/24 14:06:03  - UAT/min 0/0 [maxSS=0.00%], ES/min 1/5, Total traffic targets tracked=5
+2024/01/24 14:06:03  - Network data messages sent: 7161 total.  Network data bytes sent: 253117 total.
+2024/01/24 14:06:03  - Last GPS fix: now, GPS solution type: 1 using 6 satellites (9/10 seen/tracked), NACp: 10, est accuracy 7.90 m
+2024/01/24 14:06:03  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.25 m
+2024/01/24 14:06:03  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:06:03 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:06:33 stats [started: 2 minutes ago]
+2024/01/24 14:06:33  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:06:33  - CPUTemp=52.62 [31.63 - 52.62] deg C, MemStats.Alloc=7.1 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=8,872
+2024/01/24 14:06:33  - UAT/min 0/0 [maxSS=0.00%], ES/min 1/5, Total traffic targets tracked=5
+2024/01/24 14:06:33  - Network data messages sent: 8809 total.  Network data bytes sent: 311310 total.
+2024/01/24 14:06:33  - Last GPS fix: now, GPS solution type: 1 using 6 satellites (8/10 seen/tracked), NACp: 10, est accuracy 7.90 m
+2024/01/24 14:06:33  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.3 m
+2024/01/24 14:06:33  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:06:33 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:07:03 stats [started: 3 minutes ago]
+2024/01/24 14:07:03  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:07:03  - CPUTemp=53.15 [31.63 - 53.69] deg C, MemStats.Alloc=7.0 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=10,542
+2024/01/24 14:07:03  - UAT/min 0/0 [maxSS=0.00%], ES/min 1/5, Total traffic targets tracked=5
+2024/01/24 14:07:03  - Network data messages sent: 10467 total.  Network data bytes sent: 369534 total.
+2024/01/24 14:07:03  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (9/10 seen/tracked), NACp: 10, est accuracy 6.60 m
+2024/01/24 14:07:03  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.1 m
+2024/01/24 14:07:03  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:07:03 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:07:33 stats [started: 3 minutes ago]
+2024/01/24 14:07:33  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:07:33  - CPUTemp=53.69 [31.63 - 54.77] deg C, MemStats.Alloc=7.3 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=12,200
+2024/01/24 14:07:33  - UAT/min 0/0 [maxSS=0.00%], ES/min 1/5, Total traffic targets tracked=5
+2024/01/24 14:07:33  - Network data messages sent: 12113 total.  Network data bytes sent: 427723 total.
+2024/01/24 14:07:33  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (10/10 seen/tracked), NACp: 10, est accuracy 6.60 m
+2024/01/24 14:07:33  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.15 m
+2024/01/24 14:07:33  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:07:33 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:07:43 OGN: ogn-rx-eu stdout:  Noise: 5.9dB => Gain-- 48.0dB[27]
+2024/01/24 14:07:45 OGN: ogn-rx-eu stdout:  Noise: 5.6dB => Gain-- 44.5dB[26]
+2024/01/24 14:07:51 OGN: ogn-rx-eu stdout:  Noise: -0.6dB => Gain++ 48.0dB[27]
+2024/01/24 14:08:03 stats [started: 4 minutes ago]
+2024/01/24 14:08:03  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:08:03  - CPUTemp=55.84 [31.63 - 55.84] deg C, MemStats.Alloc=6.5 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=13,848
+2024/01/24 14:08:03  - UAT/min 0/0 [maxSS=0.00%], ES/min 1/5, Total traffic targets tracked=5
+2024/01/24 14:08:03  - Network data messages sent: 13749 total.  Network data bytes sent: 487843 total.
+2024/01/24 14:08:03  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (9/10 seen/tracked), NACp: 10, est accuracy 6.65 m
+2024/01/24 14:08:03  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.2 m
+2024/01/24 14:08:03  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:08:03 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:08:31 OGN: ogn-rx-eu stdout:  Noise: 3.6dB => Gain-- 44.5dB[26]
+2024/01/24 14:08:33 OGN: ogn-rx-eu stdout:  Noise: 3.6dB => Gain-- 43.9dB[25]
+2024/01/24 14:08:33 stats [started: 4 minutes ago]
+2024/01/24 14:08:33  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:08:33  - CPUTemp=56.38 [31.63 - 56.92] deg C, MemStats.Alloc=9.6 MB, MemStats.Sys=39 MB, totalNetworkMessagesSent=15,530
+2024/01/24 14:08:33  - UAT/min 0/0 [maxSS=0.00%], ES/min 1/5, Total traffic targets tracked=5
+2024/01/24 14:08:33  - Network data messages sent: 15419 total.  Network data bytes sent: 550449 total.
+2024/01/24 14:08:33  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (10/10 seen/tracked), NACp: 10, est accuracy 6.65 m
+2024/01/24 14:08:33  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.25 m
+2024/01/24 14:08:33  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:08:33 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:08:35 OGN: ogn-rx-eu stdout:  Noise: 3.3dB => Gain-- 43.4dB[24]
+2023/12/01 09:17:05  - stratux-pre-start.sh - Running Stratux Updater Script.
+2023/12/01 09:17:05  - stratux-pre-start.sh - Exited without updating anything...
+2023/12/01 09:17:06  - stratux-wifi.sh - Running Stratux WiFI Script.
+2023/12/01 09:17:06  - stratux-wifi.sh - Killing wpa_supplicant AP services 
+2023/12/01 09:17:06  - stratux-wifi.sh - Stopping DHCP services 
+2023/12/01 09:17:06 read in settings.
+2023/12/01 09:17:06 Stratux v1.6r1-eu029 (94438ef601f541f3ebd5782819bee09ac7d65a3f) starting.
+2023/12/01 09:17:06 Entered uatReader() ...
+2023/12/01 09:17:06 Developer mode set
+2023/12/01 09:17:06 client connected: 192.168.1.41:4000 (android-f760d860b32a48a6).
+2023/12/01 09:17:06 client connected: 192.168.1.41:2000 (android-f760d860b32a48a6).
+2023/12/01 09:17:06 client connected: 192.168.1.41:49002 (android-f760d860b32a48a6).
+2023/12/01 09:17:08  - stratux-wifi.sh - Restarting DHCP services
+2023/12/01 09:17:10 MPU detected (68).
+2023/12/01 09:17:11 setting system time from 20231201 09:17:11.245 to: '20240124 14:09:12.100 UTC'
+2024/01/24 14:09:12 Time set from GPS. Current time is 2024-01-24 14:09:12.102846458 +0000 GMT m=+4.872845885
+2024/01/24 14:09:12 GPS Attitude: Not enough points to calculate vertical speed from NMEA GGA messages
+2024/01/24 14:09:12 GPS Attitude: Not enough points to calculate vertical speed from NMEA GGA messages
+2024/01/24 14:09:13 ===== ES Device Serial: 00000001 PPM 0 =====
+2024/01/24 14:09:13 ===== OGN Device Serial: 00000001 PPM 0 =====
+2024/01/24 14:09:13 Entered OGN read() ...
+2024/01/24 14:09:13 Entered ES read() ...
+2024/01/24 14:09:13 Executed /opt/stratux//bin/dump1090 --fix --gain 37.2 --net-stratux-port 30006 --net --device-index 0 --ppm 0 successfully...
+2024/01/24 14:09:13 OGN: Executed ogn-rx-eu successfully...
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Address        = 0x4AFFFF; # [24-bit]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  AddrType       = 0x3; #  [2-bit]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  AcftType       = 0xF; #  [4-bit]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  CONbaud        = 115200; #  [  bps]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  CONprot        = 0xF; #  [ mask]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  TxPower        = +20; #  [  dBm]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  TxHW           = 1; #  [ bool]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  FreqPlan       = 0; #  [ 0..5]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  FreqCorr       = +0.0; #  [  ppm]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  TempCorr       = +0; #  [ degC]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  PressCorr      = +0.0; #  [   Pa]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  TimeCorr       = +0; #  [    s]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  GeoidSepar     = +40.0; #  [    m]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  manGeoidSepar  = 0; #  [  1|0]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  NavMode        = 0; #  [ 0..7]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  NavRate        = 0; #  [  1,2]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Verbose        = 0x01; #  [ 0..3]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  GNSS           = 0x67; #  [ mask]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  PageMask       = 0x00FF; #  [ mask]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  PPSdelay       = 100; #  [   ms]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Pilot          = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Manuf          = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Model          = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Type           = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  SN             = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Reg            = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  ID             = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Class          = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Task           = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Base           = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  ICE            = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  PilotID        = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Hard           = FXTL; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Soft           = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Crew           = ; #  [char]
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  DataServer[30010]: now listen
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  Decode server started on port 30010
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  HTTP_Server.Exec() ... Start
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  HTTP_Server.Exec() ... Listening on port 8082
+2024/01/24 14:09:13 OGN: ogn-rx-eu stdout:  RFM95 setup: RF chip version: 0x12
+2024/01/24 14:09:14 OGN: ogn-rx-eu stderr:  Found Rafael Micro R820T tuner
+2024/01/24 14:09:14 OGN: ogn-rx-eu stderr:  Exact sample rate is: 2000000.052982 Hz
+2024/01/24 14:09:14 ogn-rx-eu successfully connected
+2024/01/24 14:09:14 OGN: ogn-rx-eu stdout:  RTLSDR::Open(1,868800000,2000000) => Generic RTL2832U OEM,  868.809 MHz, 2.000 Msps
+2024/01/24 14:09:14 OGN: ogn-rx-eu stdout:  RTLSDR::Gain[29] =  +0.0  +0.9  +1.4  +2.7  +3.7  +7.7  +8.7 +12.5 +14.4 +15.7 +16.6 +19.7 +20.7 +22.9 +25.4 +28.0 +29.7 +32.8 +33.8 +36.4 +37.2 +38.6 +40.2 +42.1 +43.4 +43.9 +44.5 +48.0 +49.6 [dB]
+2024/01/24 14:09:14 OGN: ogn-rx-eu stdout:  DataServer[30010]: accept client: 14 (1 clients on the list)
+2024/01/24 14:09:14 OGN: ogn-rx-eu stdout:  LoRaWAN AppEUI:70B3D57ED0035895 DevEUI:4CE20000FF9DCAA9 DevNonce:00000000 State:0 AppKey:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF New device: needs to be registered
+2024/01/24 14:09:14 OGN: ogn-rx-eu stdout:  Open RTLSDR[1]
+2024/01/24 14:09:15 Parsing OGN device db
+2024/01/24 14:09:16 Successfully parsed OGN device db
+2024/01/24 14:09:16 OGN: ogn-rx-eu stdout:  Noise: 6.7dB => Gain-- 48.0dB[27]
+2024/01/24 14:09:17 opened serialout: Name: /dev/serialout_nmea0, Baud: 115200
+2024/01/24 14:09:18 OGN: ogn-rx-eu stdout:  Noise: 6.6dB => Gain-- 44.5dB[26]
+2024/01/24 14:09:20 OGN: ogn-rx-eu stdout:  Noise: 4.7dB => Gain-- 43.9dB[25]
+2024/01/24 14:09:22 OGN: ogn-rx-eu stdout:  Noise: 3.3dB => Gain-- 43.4dB[24]
+2024/01/24 14:09:37 stats [started: 30 seconds ago]
+2024/01/24 14:09:37  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:09:37  - CPUTemp=56.92 [49.39 - 56.92] deg C, MemStats.Alloc=6.3 MB, MemStats.Sys=43 MB, totalNetworkMessagesSent=595
+2024/01/24 14:09:37  - UAT/min 0/0 [maxSS=0.00%], ES/min 0/0, Total traffic targets tracked=4
+2024/01/24 14:09:37  - Network data messages sent: 590 total.  Network data bytes sent: 21451 total.
+2024/01/24 14:09:37  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (9/10 seen/tracked), NACp: 10, est accuracy 6.75 m
+2024/01/24 14:09:37  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.349999 m
+2024/01/24 14:09:37  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:09:37 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:10:07 stats [started: 59 seconds ago]
+2024/01/24 14:10:07  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:10:07  - CPUTemp=58.53 [49.39 - 59.07] deg C, MemStats.Alloc=10 MB, MemStats.Sys=43 MB, totalNetworkMessagesSent=2,250
+2024/01/24 14:10:07  - UAT/min 0/0 [maxSS=0.00%], ES/min 1/1, Total traffic targets tracked=5
+2024/01/24 14:10:07  - Network data messages sent: 2239 total.  Network data bytes sent: 82783 total.
+2024/01/24 14:10:07  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (9/10 seen/tracked), NACp: 10, est accuracy 6.75 m
+2024/01/24 14:10:07  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.4 m
+2024/01/24 14:10:07  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:10:07 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:10:37 stats [started: 1 minute ago]
+2024/01/24 14:10:37  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:10:37  - CPUTemp=59.61 [49.39 - 59.61] deg C, MemStats.Alloc=8.7 MB, MemStats.Sys=43 MB, totalNetworkMessagesSent=3,882
+2024/01/24 14:10:37  - UAT/min 0/0 [maxSS=0.00%], ES/min 3/3, Total traffic targets tracked=6
+2024/01/24 14:10:37  - Network data messages sent: 3865 total.  Network data bytes sent: 142133 total.
+2024/01/24 14:10:37  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (9/10 seen/tracked), NACp: 10, est accuracy 6.80 m
+2024/01/24 14:10:37  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.450001 m
+2024/01/24 14:10:37  - Mode-S Distance factors (<5000, <10000, >10000): 2500.000000, 2800.000000, 3000.000000
+2024/01/24 14:10:37 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:11:07 stats [started: 1 minute ago]
+2024/01/24 14:11:07  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:11:07  - CPUTemp=60.15 [49.39 - 60.15] deg C, MemStats.Alloc=8.2 MB, MemStats.Sys=43 MB, totalNetworkMessagesSent=5,546
+2024/01/24 14:11:07  - UAT/min 0/0 [maxSS=0.00%], ES/min 107/107, Total traffic targets tracked=6
+2024/01/24 14:11:07  - Network data messages sent: 5524 total.  Network data bytes sent: 207912 total.
+2024/01/24 14:11:07  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (9/10 seen/tracked), NACp: 10, est accuracy 7.45 m
+2024/01/24 14:11:07  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 10.1 m
+2024/01/24 14:11:07  - Mode-S Distance factors (<5000, <10000, >10000): 1653.110354, 2800.000000, 3000.000000
+2024/01/24 14:11:07 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:11:07 client connected: 192.168.1.45:4000 ().
+2024/01/24 14:11:07 client connected: 192.168.1.45:2000 ().
+2024/01/24 14:11:07 client connected: 192.168.1.45:49002 ().
+2024/01/24 14:11:37 stats [started: 2 minutes ago]
+2024/01/24 14:11:37  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:11:37  - CPUTemp=60.15 [49.39 - 60.69] deg C, MemStats.Alloc=12 MB, MemStats.Sys=43 MB, totalNetworkMessagesSent=7,313
+2024/01/24 14:11:37  - UAT/min 0/0 [maxSS=0.00%], ES/min 248/248, Total traffic targets tracked=7
+2024/01/24 14:11:37  - Network data messages sent: 7278 total.  Network data bytes sent: 276111 total.
+2024/01/24 14:11:37  - Last GPS fix: now, GPS solution type: 1 using 7 satellites (9/10 seen/tracked), NACp: 10, est accuracy 7.05 m
+2024/01/24 14:11:37  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 9.5 m
+2024/01/24 14:11:37  - Mode-S Distance factors (<5000, <10000, >10000): 564.193905, 2800.000000, 3000.000000
+2024/01/24 14:11:37 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:11:58 wrote settings.
+2024/01/24 14:11:58 Configuring OGN Tracker: $POGNS,Address=0x4A0021,AddrType=3,AcftType=8,Pilot=FOXTRAL,Reg=OK-BUR36,TxPower=20,Hard=STX,Soft=1.6r1-eu029*5B
+2024/01/24 14:12:07 stats [started: 2 minutes ago]
+2024/01/24 14:12:07  - Disk bytes used = 1.8 GB (12.2 %), Disk bytes free = 13 GB (87.8 %)
+2024/01/24 14:12:07  - CPUTemp=60.15 [49.39 - 61.22] deg C, MemStats.Alloc=11 MB, MemStats.Sys=43 MB, totalNetworkMessagesSent=9,118
+2024/01/24 14:12:07  - UAT/min 0/0 [maxSS=0.00%], ES/min 438/438, Total traffic targets tracked=7
+2024/01/24 14:12:07  - Network data messages sent: 9071 total.  Network data bytes sent: 347747 total.
+2024/01/24 14:12:07  - Last GPS fix: now, GPS solution type: 1 using 8 satellites (9/10 seen/tracked), NACp: 10, est accuracy 6.45 m
+2024/01/24 14:12:07  - GPS vertical velocity: 0.00 ft/sec; GPS vertical accuracy: 8.55 m
+2024/01/24 14:12:07  - Mode-S Distance factors (<5000, <10000, >10000): 478.422701, 2700.170044, 3000.000000
+2024/01/24 14:12:07 - Last IMU read: now, Last BMP read: now
+2024/01/24 14:12:10 wrote settings.
+2024/01/24 14:12:15 wrote settings.
+2024/01/24 14:12:15 wrote settings.
+2024/01/24 14:12:21 overlayctl error: exit status 32
+2024/01/24 14:12:21 wrote settings.
+2024/01/24 14:12:23 signal caught: terminated - shutting down.
+2024/01/24 14:12:24 Entered ES shutdown() ...
+2024/01/24 14:12:24 ES shutdown(): calling e.wg.Wait() ...
+2024/01/24 14:12:24 ES read(): shutdown msg received, calling cmd.Process.Kill() ...
+2024/01/24 14:12:24 kill successful...
+2024/01/24 14:12:24 ES shutdown() complete ...
+2024/01/24 14:12:24 Entered OGN shutdown() ...
+2024/01/24 14:12:24 signal shutdown(): calling f.wg.Wait() ...
+2024/01/24 14:12:24 OGN read(): shutdown msg received, calling cmd.Process.Kill() ...
+2024/01/24 14:12:24 kill successful...
+2024/01/24 14:12:24 OGN: ogn-rx-eu terminated...
+2024/01/24 14:12:24 signal shutdown() complete ...

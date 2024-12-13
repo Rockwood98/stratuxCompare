@@ -1,0 +1,1002 @@
+Nov 21 14:17:07 FOXTRAL kernel: [   12.943925] IPv6: ADDRCONF(NETDEV_CHANGE): ap0: link becomes ready
+Nov 21 14:17:11 FOXTRAL kernel: [   17.109734] brcmfmac: brcmf_cfg80211_set_power_mgmt: power save disabled
+Nov 21 14:17:16 FOXTRAL kernel: [   21.649662] 
+Nov 21 14:17:16 FOXTRAL kernel: [   21.649681] WARN::dwc_otg_hcd_urb_dequeue:639: Timed out waiting for FSM NP transfer to complete on 2
+Nov 21 14:17:16 FOXTRAL kernel: [   21.650108] 
+Nov 21 14:17:16 FOXTRAL kernel: [   21.650112] WARN::dwc_otg_hcd_urb_dequeue:639: Timed out waiting for FSM NP transfer to complete on 0
+Nov 21 14:17:16 FOXTRAL kernel: [   22.148401] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Nov 21 14:17:22 FOXTRAL kernel: [   27.641774] uart-pl011 3f201000.serial: no DMA platform data
+Nov 22 09:07:35 FOXTRAL kernel: [   33.761258] cam-dummy-reg: disabling
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd034]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Linux version 5.15.32-v8+ (dom@buildbot) (aarch64-linux-gnu-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] random: fast init done
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Machine model: Raspberry Pi 3 Model B Rev 1.2
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] efi: UEFI not found.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Reserved memory: created CMA memory pool at 0x0000000037400000, size 64 MiB
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Zone ranges:
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000]   DMA      [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000]   DMA32    empty
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000]   Normal   empty
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Movable zone start for each node
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Early memory node ranges
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000]   node   0: [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] percpu: Embedded 28 pages/cpu s77144 r8192 d29352 u114688
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] pcpu-alloc: s77144 r8192 d29352 u114688 alloc=28*4096
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Detected VIPT I-cache on CPU0
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] CPU features: detected: ARM erratum 843419
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] CPU features: detected: ARM erratum 845719
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 238896
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=1 snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  systemd.restore_state=0 rfkill.default_state=1 console=tty1 root=PARTUUID=4a756e7e-02 rootfstype=ext4 fsck.repair=yes rootwait ro init=/sbin/init-overlay
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Memory: 862280K/970752K available (11456K kernel code, 1962K rwdata, 4144K rodata, 3776K init, 964K bss, 42936K reserved, 65536K cma-reserved)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] ftrace: allocating 37889 entries in 149 pages
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] ftrace: allocated 149 pages with 4 groups
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] trace event string verifier disabled
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: Preemptible hierarchical RCU implementation.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: 	RCU event tracing is enabled.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] 	Trampoline variant of Tasks RCU enabled.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] 	Rude variant of Tasks RCU enabled.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] 	Tracing variant of Tasks RCU enabled.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Root IRQ handler: bcm2836_arm_irqchip_handle_irq
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x510/0x6f8 with crng_init=1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000001] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000309] Console: colour dummy device 80x25
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001219] printk: console [tty1] enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001309] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=76800)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001374] pid_max: default: 32768 minimum: 301
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001582] LSM: Security Framework initializing
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001802] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001870] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.003579] cgroup: Disabling memory control group subsystem
+Nov 21 14:17:05 FOXTRAL kernel: [    0.007117] rcu: Hierarchical SRCU implementation.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.008629] EFI services will not be available.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.009435] smp: Bringing up secondary CPUs ...
+Nov 21 14:17:05 FOXTRAL kernel: [    0.010953] Detected VIPT I-cache on CPU1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.011044] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.012875] Detected VIPT I-cache on CPU2
+Nov 21 14:17:05 FOXTRAL kernel: [    0.012940] CPU2: Booted secondary processor 0x0000000002 [0x410fd034]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.014606] Detected VIPT I-cache on CPU3
+Nov 21 14:17:05 FOXTRAL kernel: [    0.014662] CPU3: Booted secondary processor 0x0000000003 [0x410fd034]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.014869] smp: Brought up 1 node, 4 CPUs
+Nov 21 14:17:05 FOXTRAL kernel: [    0.015027] SMP: Total of 4 processors activated.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.015062] CPU features: detected: 32-bit EL0 Support
+Nov 21 14:17:05 FOXTRAL kernel: [    0.015094] CPU features: detected: 32-bit EL1 Support
+Nov 21 14:17:05 FOXTRAL kernel: [    0.015129] CPU features: detected: CRC32 instructions
+Nov 21 14:17:05 FOXTRAL kernel: [    0.054520] CPU: All CPU(s) started at EL2
+Nov 21 14:17:05 FOXTRAL kernel: [    0.054665] alternatives: patching kernel code
+Nov 21 14:17:05 FOXTRAL kernel: [    0.056689] devtmpfs: initialized
+Nov 21 14:17:05 FOXTRAL kernel: [    0.078478] Enabled cp15_barrier support
+Nov 21 14:17:05 FOXTRAL kernel: [    0.078559] Enabled setend support
+Nov 21 14:17:05 FOXTRAL kernel: [    0.078859] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Nov 21 14:17:05 FOXTRAL kernel: [    0.078930] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.083175] pinctrl core: initialized pinctrl subsystem
+Nov 21 14:17:05 FOXTRAL kernel: [    0.084419] DMI not present or invalid.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.085121] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    0.095933] DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+Nov 21 14:17:05 FOXTRAL kernel: [    0.096496] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Nov 21 14:17:05 FOXTRAL kernel: [    0.097988] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Nov 21 14:17:05 FOXTRAL kernel: [    0.098178] audit: initializing netlink subsys (disabled)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.098629] audit: type=2000 audit(0.096:1): state=initialized audit_enabled=0 res=1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.099455] thermal_sys: Registered thermal governor 'step_wise'
+Nov 21 14:17:05 FOXTRAL kernel: [    0.099808] cpuidle: using governor menu
+Nov 21 14:17:05 FOXTRAL kernel: [    0.100507] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.100814] ASID allocator initialised with 65536 entries
+Nov 21 14:17:05 FOXTRAL kernel: [    0.101084] Serial: AMBA PL011 UART driver
+Nov 21 14:17:05 FOXTRAL kernel: [    0.113380] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    0.140677] raspberrypi-firmware soc:firmware: Attached to firmware from 2022-03-24T13:20:54, variant start
+Nov 21 14:17:05 FOXTRAL kernel: [    0.144689] raspberrypi-firmware soc:firmware: Firmware hash is e5a963efa66a1974127860b42e913d2374139ff5
+Nov 21 14:17:05 FOXTRAL kernel: [    0.202892] bcm2835-dma 3f007000.dma: DMA legacy API manager, dmachans=0x1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.208428] vgaarb: loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    0.209153] SCSI subsystem initialized
+Nov 21 14:17:05 FOXTRAL kernel: [    0.209492] usbcore: registered new interface driver usbfs
+Nov 21 14:17:05 FOXTRAL kernel: [    0.209609] usbcore: registered new interface driver hub
+Nov 21 14:17:05 FOXTRAL kernel: [    0.209729] usbcore: registered new device driver usb
+Nov 21 14:17:05 FOXTRAL kernel: [    0.210225] usb_phy_generic phy: supply vcc not found, using dummy regulator
+Nov 21 14:17:05 FOXTRAL kernel: [    0.210877] pps_core: LinuxPPS API ver. 1 registered
+Nov 21 14:17:05 FOXTRAL kernel: [    0.210915] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 21 14:17:05 FOXTRAL kernel: [    0.210980] PTP clock support registered
+Nov 21 14:17:05 FOXTRAL kernel: [    0.213530] clocksource: Switched to clocksource arch_sys_counter
+Nov 21 14:17:05 FOXTRAL kernel: [    0.350363] VFS: Disk quotas dquot_6.6.0
+Nov 21 14:17:05 FOXTRAL kernel: [    0.350533] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.350807] FS-Cache: Loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    0.351150] CacheFiles: Loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    0.366704] NET: Registered PF_INET protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    0.367058] IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.368997] tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369081] TCP established hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369237] TCP bind hash table entries: 8192 (order: 5, 131072 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369466] TCP: Hash tables configured (established 8192 bind 8192)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369828] UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369915] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.370296] NET: Registered PF_UNIX/PF_LOCAL protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371560] RPC: Registered named UNIX socket transport module.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371603] RPC: Registered udp transport module.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371637] RPC: Registered tcp transport module.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371670] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371717] PCI: CLS 0 bytes, default 64
+Nov 21 14:17:05 FOXTRAL kernel: [    0.374474] hw perfevents: enabled with armv8_cortex_a53 PMU driver, 7 counters available
+Nov 21 14:17:05 FOXTRAL kernel: [    0.374837] kvm [1]: IPA Size Limit: 40 bits
+Nov 21 14:17:05 FOXTRAL kernel: [    0.376554] kvm [1]: Hyp mode initialized successfully
+Nov 21 14:17:05 FOXTRAL kernel: [    1.872169] Initialise system trusted keyrings
+Nov 21 14:17:05 FOXTRAL kernel: [    1.872692] workingset: timestamp_bits=46 max_order=18 bucket_order=0
+Nov 21 14:17:05 FOXTRAL kernel: [    1.883589] zbud: loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    1.886424] FS-Cache: Netfs 'nfs' registered for caching
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887435] NFS: Registering the id_resolver key type
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887507] Key type id_resolver registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887541] Key type id_legacy registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887717] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887759] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+Nov 21 14:17:05 FOXTRAL kernel: [    1.889492] Key type asymmetric registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.889583] Asymmetric key parser 'x509' registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.889715] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Nov 21 14:17:05 FOXTRAL kernel: [    1.890136] io scheduler mq-deadline registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.890175] io scheduler kyber registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.898510] bcm2708_fb soc:fb: FB found 1 display(s)
+Nov 21 14:17:05 FOXTRAL kernel: [    1.916505] Console: switching to colour frame buffer device 82x26
+Nov 21 14:17:05 FOXTRAL kernel: [    1.921390] bcm2708_fb soc:fb: Registered framebuffer for display 0, size 656x416
+Nov 21 14:17:05 FOXTRAL kernel: [    1.932557] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    1.938323] bcm2835-rng 3f104000.rng: hwrng registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.941816] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Nov 21 14:17:05 FOXTRAL kernel: [    1.948790] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Nov 21 14:17:05 FOXTRAL kernel: [    1.954660] cacheinfo: Unable to detect cache hierarchy for CPU 0
+Nov 21 14:17:05 FOXTRAL kernel: [    1.975042] brd: module loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    1.992735] loop: module loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    1.996441] Loading iSCSI transport class v2.0-870.
+Nov 21 14:17:05 FOXTRAL kernel: [    2.005785] usbcore: registered new interface driver r8152
+Nov 21 14:17:05 FOXTRAL kernel: [    2.008613] usbcore: registered new interface driver lan78xx
+Nov 21 14:17:05 FOXTRAL kernel: [    2.011365] usbcore: registered new interface driver smsc95xx
+Nov 21 14:17:05 FOXTRAL kernel: [    2.014547] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Nov 21 14:17:05 FOXTRAL kernel: [    2.745692] Core Release: 2.80a
+Nov 21 14:17:05 FOXTRAL kernel: [    2.748151] Setting default values for core params
+Nov 21 14:17:05 FOXTRAL kernel: [    2.750715] Finished setting default values for core params
+Nov 21 14:17:05 FOXTRAL kernel: [    2.953739] Using Buffer DMA mode
+Nov 21 14:17:05 FOXTRAL kernel: [    2.956221] Periodic Transfer Interrupt Enhancement - disabled
+Nov 21 14:17:05 FOXTRAL kernel: [    2.958759] Multiprocessor Interrupt Enhancement - disabled
+Nov 21 14:17:05 FOXTRAL kernel: [    2.961228] OTG VER PARAM: 0, OTG VER FLAG: 0
+Nov 21 14:17:05 FOXTRAL kernel: [    2.963666] Dedicated Tx FIFOs mode
+Nov 21 14:17:05 FOXTRAL kernel: [    2.966734] 
+Nov 21 14:17:05 FOXTRAL kernel: [    2.966749] WARN::dwc_otg_hcd_init:1074: FIQ DMA bounce buffers: virt = ffffffc009a51000 dma = 0x00000000f7810000 len=9024
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973518] FIQ FSM acceleration enabled for :
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973518] Non-periodic Split Transactions
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973518] Periodic Split Transactions
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973518] High-Speed Isochronous Endpoints
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973518] Interrupt/Control Split Transaction hack enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    2.983962] dwc_otg: Microframe scheduler enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    2.984017] 
+Nov 21 14:17:05 FOXTRAL kernel: [    2.984030] WARN::hcd_init_fiq:497: MPHI regs_base at ffffffc009635000
+Nov 21 14:17:05 FOXTRAL kernel: [    2.988386] dwc_otg 3f980000.usb: DWC OTG Controller
+Nov 21 14:17:05 FOXTRAL kernel: [    2.990774] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Nov 21 14:17:05 FOXTRAL kernel: [    2.993184] dwc_otg 3f980000.usb: irq 74, io mem 0x00000000
+Nov 21 14:17:05 FOXTRAL kernel: [    2.995546] Init: Port Power? op_state=1
+Nov 21 14:17:05 FOXTRAL kernel: [    2.997840] Init: Power Port (0)
+Nov 21 14:17:05 FOXTRAL kernel: [    3.000540] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Nov 21 14:17:05 FOXTRAL kernel: [    3.005124] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 21 14:17:05 FOXTRAL kernel: [    3.007597] usb usb1: Product: DWC OTG Controller
+Nov 21 14:17:05 FOXTRAL kernel: [    3.010015] usb usb1: Manufacturer: Linux 5.15.32-v8+ dwc_otg_hcd
+Nov 21 14:17:05 FOXTRAL kernel: [    3.012473] usb usb1: SerialNumber: 3f980000.usb
+Nov 21 14:17:05 FOXTRAL kernel: [    3.015976] hub 1-0:1.0: USB hub found
+Nov 21 14:17:05 FOXTRAL kernel: [    3.018487] hub 1-0:1.0: 1 port detected
+Nov 21 14:17:05 FOXTRAL kernel: [    3.021991] dwc_otg: FIQ enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    3.022009] dwc_otg: NAK holdoff enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    3.022025] dwc_otg: FIQ split-transaction FSM enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    3.022046] Module dwc_common_port init
+Nov 21 14:17:05 FOXTRAL kernel: [    3.022828] usbcore: registered new interface driver uas
+Nov 21 14:17:05 FOXTRAL kernel: [    3.025239] usbcore: registered new interface driver usb-storage
+Nov 21 14:17:05 FOXTRAL kernel: [    3.028116] mousedev: PS/2 mouse device common for all mice
+Nov 21 14:17:05 FOXTRAL kernel: [    3.034909] sdhci: Secure Digital Host Controller Interface driver
+Nov 21 14:17:05 FOXTRAL kernel: [    3.037306] sdhci: Copyright(c) Pierre Ossman
+Nov 21 14:17:05 FOXTRAL kernel: [    3.040352] sdhci-pltfm: SDHCI platform and OF driver helper
+Nov 21 14:17:05 FOXTRAL kernel: [    3.046275] ledtrig-cpu: registered to indicate activity on CPUs
+Nov 21 14:17:05 FOXTRAL kernel: [    3.049640] hid: raw HID events driver (C) Jiri Kosina
+Nov 21 14:17:05 FOXTRAL kernel: [    3.052171] usbcore: registered new interface driver usbhid
+Nov 21 14:17:05 FOXTRAL kernel: [    3.054541] usbhid: USB HID core driver
+Nov 21 14:17:05 FOXTRAL kernel: [    3.057295] ashmem: initialized
+Nov 21 14:17:05 FOXTRAL kernel: [    3.067751] Initializing XFRM netlink socket
+Nov 21 14:17:05 FOXTRAL kernel: [    3.070172] NET: Registered PF_PACKET protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    3.072603] Key type dns_resolver registered
+Nov 21 14:17:05 FOXTRAL kernel: [    3.076751] registered taskstats version 1
+Nov 21 14:17:05 FOXTRAL kernel: [    3.078917] Loading compiled-in X.509 certificates
+Nov 21 14:17:05 FOXTRAL kernel: [    3.081909] Key type ._fscrypt registered
+Nov 21 14:17:05 FOXTRAL kernel: [    3.083945] Key type .fscrypt registered
+Nov 21 14:17:05 FOXTRAL kernel: [    3.085946] Key type fscrypt-provisioning registered
+Nov 21 14:17:05 FOXTRAL kernel: [    3.107366] uart-pl011 3f201000.serial: there is not valid maps for state default
+Nov 21 14:17:05 FOXTRAL kernel: [    3.111984] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    3.114520] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 99, base_baud = 0) is a PL011 rev2
+Nov 21 14:17:05 FOXTRAL kernel: [    3.125129] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+Nov 21 14:17:05 FOXTRAL kernel: [    3.128270] bcm2835-power bcm2835-power: Broadcom BCM2835 power domains driver
+Nov 21 14:17:05 FOXTRAL kernel: [    3.129801] Indeed it is in host mode hprt0 = 00021501
+Nov 21 14:17:05 FOXTRAL kernel: [    3.133538] mmc-bcm2835 3f300000.mmcnr: mmc_debug:0 mmc_debug2:0
+Nov 21 14:17:05 FOXTRAL kernel: [    3.136021] mmc-bcm2835 3f300000.mmcnr: DMA channel allocated
+Nov 21 14:17:05 FOXTRAL kernel: [    3.165405] sdhost: log_buf @ (____ptrval____) (c2b7a000)
+Nov 21 14:17:05 FOXTRAL kernel: [    3.218296] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Nov 21 14:17:05 FOXTRAL kernel: [    3.246135] of_cfs_init
+Nov 21 14:17:05 FOXTRAL kernel: [    3.248805] of_cfs_init: OK
+Nov 21 14:17:05 FOXTRAL kernel: [    3.253123] Waiting for root device PARTUUID=4a756e7e-02...
+Nov 21 14:17:05 FOXTRAL kernel: [    3.283175] mmc0: host does not support reading read-only switch, assuming write-enable
+Nov 21 14:17:05 FOXTRAL kernel: [    3.292410] mmc0: new high speed SDHC card at address 5048
+Nov 21 14:17:05 FOXTRAL kernel: [    3.297196] mmcblk0: mmc0:5048 SD32G 29.7 GiB 
+Nov 21 14:17:05 FOXTRAL kernel: [    3.306772]  mmcblk0: p1 p2
+Nov 21 14:17:05 FOXTRAL kernel: [    3.310682] mmcblk0: mmc0:5048 SD32G 29.7 GiB
+Nov 21 14:17:05 FOXTRAL kernel: [    3.318243] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    3.321147] Indeed it is in host mode hprt0 = 00001101
+Nov 21 14:17:05 FOXTRAL kernel: [    3.334058] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Nov 21 14:17:05 FOXTRAL kernel: [    3.336696] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Nov 21 14:17:05 FOXTRAL kernel: [    3.357555] mmc1: new high speed SDIO card at address 0001
+Nov 21 14:17:05 FOXTRAL kernel: [    3.420442] EXT4-fs (mmcblk0p2): recovery complete
+Nov 21 14:17:05 FOXTRAL kernel: [    3.426052] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Nov 21 14:17:05 FOXTRAL kernel: [    3.431046] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Nov 21 14:17:05 FOXTRAL kernel: [    3.442995] devtmpfs: mounted
+Nov 21 14:17:05 FOXTRAL kernel: [    3.456701] Freeing unused kernel memory: 3776K
+Nov 21 14:17:05 FOXTRAL kernel: [    3.459522] Run /sbin/init-overlay as init process
+Nov 21 14:17:05 FOXTRAL kernel: [    3.462070]   with arguments:
+Nov 21 14:17:05 FOXTRAL kernel: [    3.462088]     /sbin/init-overlay
+Nov 21 14:17:05 FOXTRAL kernel: [    3.462103]   with environment:
+Nov 21 14:17:05 FOXTRAL kernel: [    3.462117]     HOME=/
+Nov 21 14:17:05 FOXTRAL kernel: [    3.462131]     TERM=linux
+Nov 21 14:17:05 FOXTRAL kernel: [    3.530246] usb 1-1: New USB device found, idVendor=0424, idProduct=9514, bcdDevice= 2.00
+Nov 21 14:17:05 FOXTRAL kernel: [    3.535671] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov 21 14:17:05 FOXTRAL kernel: [    3.539780] hub 1-1:1.0: USB hub found
+Nov 21 14:17:05 FOXTRAL kernel: [    3.542730] hub 1-1:1.0: 5 ports detected
+Nov 21 14:17:05 FOXTRAL kernel: [    3.833605] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    3.934210] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00, bcdDevice= 2.00
+Nov 21 14:17:05 FOXTRAL kernel: [    3.939802] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov 21 14:17:05 FOXTRAL kernel: [    3.945867] smsc95xx v2.0.0
+Nov 21 14:17:05 FOXTRAL kernel: [    4.249758] random: crng init done
+Nov 21 14:17:05 FOXTRAL kernel: [    4.270939] SMSC LAN8700 usb-001:003:01: attached PHY driver (mii_bus:phy_addr=usb-001:003:01, irq=POLL)
+Nov 21 14:17:05 FOXTRAL kernel: [    4.277977] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:55:95:06
+Nov 21 14:17:05 FOXTRAL kernel: [    4.321813] NET: Registered PF_INET6 protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    4.327433] Segment Routing with IPv6
+Nov 21 14:17:05 FOXTRAL kernel: [    4.330462] In-situ OAM (IOAM) with IPv6
+Nov 21 14:17:05 FOXTRAL kernel: [    4.361637] usb 1-1.2: new high-speed USB device number 4 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    4.489986] usb 1-1.2: New USB device found, idVendor=0bda, idProduct=2838, bcdDevice= 1.00
+Nov 21 14:17:05 FOXTRAL kernel: [    4.495801] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 21 14:17:05 FOXTRAL kernel: [    4.498879] usb 1-1.2: Product: RTL2838UHIDIR
+Nov 21 14:17:05 FOXTRAL kernel: [    4.501883] usb 1-1.2: Manufacturer: Realtek
+Nov 21 14:17:05 FOXTRAL kernel: [    4.505112] usb 1-1.2: SerialNumber: 00000001
+Nov 21 14:17:05 FOXTRAL kernel: [    4.597672] usb 1-1.3: new high-speed USB device number 5 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    4.713983] usb 1-1.3: New USB device found, idVendor=0bda, idProduct=2838, bcdDevice= 1.00
+Nov 21 14:17:05 FOXTRAL kernel: [    4.719368] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 21 14:17:05 FOXTRAL kernel: [    4.722737] usb 1-1.3: Product: RTL2838UHIDIR
+Nov 21 14:17:05 FOXTRAL kernel: [    4.725594] usb 1-1.3: Manufacturer: Realtek
+Nov 21 14:17:05 FOXTRAL kernel: [    4.728370] usb 1-1.3: SerialNumber: 00000001
+Nov 21 14:17:05 FOXTRAL kernel: [    5.806831] fuse: init (API version 7.34)
+Nov 21 14:17:05 FOXTRAL kernel: [    6.034093] i2c_dev: i2c /dev entries driver
+Nov 21 14:17:05 FOXTRAL kernel: [    6.516535] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null). Quota mode: none.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.756901] vc_sm_cma: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.760297] bcm2835_vc_sm_cma_probe: Videocore shared memory driver
+Nov 21 14:17:05 FOXTRAL kernel: [    7.760358] [vc_sm_connected_init]: start
+Nov 21 14:17:05 FOXTRAL kernel: [    7.765998] mc: Linux media interface: v0.10
+Nov 21 14:17:05 FOXTRAL kernel: [    7.768665] [vc_sm_connected_init]: installed successfully
+Nov 21 14:17:05 FOXTRAL kernel: [    7.831373] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.839840] bcm2835_audio bcm2835_audio: card created with 8 channels
+Nov 21 14:17:05 FOXTRAL kernel: [    7.843400] videodev: Linux video capture interface: v2.00
+Nov 21 14:17:05 FOXTRAL kernel: [    7.889351] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.889351] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.901739] bcm2835_isp: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.904039] bcm2835_v4l2: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.911450] bcm2835_codec: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.926441] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video13
+Nov 21 14:17:05 FOXTRAL kernel: [    7.927169] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video14
+Nov 21 14:17:05 FOXTRAL kernel: [    7.927856] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video15
+Nov 21 14:17:05 FOXTRAL kernel: [    7.928426] bcm2835-codec bcm2835-codec: Device registered as /dev/video10
+Nov 21 14:17:05 FOXTRAL kernel: [    7.928452] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video16
+Nov 21 14:17:05 FOXTRAL kernel: [    7.928495] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.928528] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.928528] bcm2835-codec bcm2835-codec: Loaded V4L2 decode
+Nov 21 14:17:05 FOXTRAL kernel: [    7.928559] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.928587] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.940617] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video20
+Nov 21 14:17:05 FOXTRAL kernel: [    7.941397] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video21
+Nov 21 14:17:05 FOXTRAL kernel: [    7.942191] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video22
+Nov 21 14:17:05 FOXTRAL kernel: [    7.944388] bcm2835-codec bcm2835-codec: Device registered as /dev/video11
+Nov 21 14:17:05 FOXTRAL kernel: [    7.944506] bcm2835-codec bcm2835-codec: Loaded V4L2 encode
+Nov 21 14:17:05 FOXTRAL kernel: [    7.944978] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video23
+Nov 21 14:17:05 FOXTRAL kernel: [    7.945021] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.945071] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.945100] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.945129] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.945486] bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp
+Nov 21 14:17:05 FOXTRAL kernel: [    7.961750] bcm2835-codec bcm2835-codec: Device registered as /dev/video12
+Nov 21 14:17:05 FOXTRAL kernel: [    7.961873] bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+Nov 21 14:17:05 FOXTRAL kernel: [    7.969105] bcm2835-codec bcm2835-codec: Device registered as /dev/video18
+Nov 21 14:17:05 FOXTRAL kernel: [    7.969185] bcm2835-codec bcm2835-codec: Loaded V4L2 image_fx
+Nov 21 14:17:05 FOXTRAL kernel: [    7.976885] bcm2835-codec bcm2835-codec: Device registered as /dev/video31
+Nov 21 14:17:05 FOXTRAL kernel: [    7.976964] bcm2835-codec bcm2835-codec: Loaded V4L2 encode_image
+Nov 21 14:17:05 FOXTRAL kernel: [    8.370431] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Nov 21 14:17:05 FOXTRAL kernel: [    8.435600] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Nov 21 14:17:05 FOXTRAL kernel: [    8.578998] cfg80211: loaded regulatory.db is malformed or signature is missing/invalid
+Nov 21 14:17:05 FOXTRAL kernel: [    8.722425] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Nov 21 14:17:05 FOXTRAL kernel: [    8.762606] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 21 14:17:05 FOXTRAL kernel: [    8.763831] usbcore: registered new interface driver brcmfmac
+Nov 21 14:17:05 FOXTRAL kernel: [    8.764213] brcmfmac mmc1:0001:1: Direct firmware load for brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.bin failed with error -2
+Nov 21 14:17:05 FOXTRAL kernel: [    9.066015] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 21 14:17:05 FOXTRAL kernel: [    9.066232] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 21 14:17:05 FOXTRAL kernel: [    9.087658] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43430/1 wl0: Jul 19 2021 03:24:18 version 7.45.98 (TOB) (56df937 CY) FWID 01-8e14b897
+Nov 21 14:17:05 FOXTRAL kernel: [   10.589630] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Nov 21 14:17:05 FOXTRAL kernel: [   10.741852] smsc95xx 1-1.1:1.0 eth0: Link is Down
+Nov 21 14:17:07 FOXTRAL kernel: [   12.282093] IPv6: ADDRCONF(NETDEV_CHANGE): ap0: link becomes ready
+Nov 21 14:17:10 FOXTRAL kernel: [   15.695601] uart-pl011 3f201000.serial: no DMA platform data
+Nov 21 14:17:12 FOXTRAL kernel: [   16.784140] brcmfmac: brcmf_cfg80211_set_power_mgmt: power save disabled
+Nov 21 14:17:28 FOXTRAL kernel: [   33.757619] cam-dummy-reg: disabling
+Nov 21 14:22:01 FOXTRAL kernel: [  306.313579] usb 1-1.5: new full-speed USB device number 6 using dwc_otg
+Nov 21 14:22:01 FOXTRAL kernel: [  306.416554] usb 1-1.5: New USB device found, idVendor=1546, idProduct=01a7, bcdDevice= 1.00
+Nov 21 14:22:01 FOXTRAL kernel: [  306.416609] usb 1-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 21 14:22:01 FOXTRAL kernel: [  306.416631] usb 1-1.5: Product: u-blox 7 - GPS/GNSS Receiver
+Nov 21 14:22:01 FOXTRAL kernel: [  306.416649] usb 1-1.5: Manufacturer: u-blox AG - www.u-blox.com
+Nov 21 14:22:01 FOXTRAL kernel: [  306.509282] cdc_acm 1-1.5:1.0: ttyACM0: USB ACM device
+Nov 21 14:22:01 FOXTRAL kernel: [  306.510585] usbcore: registered new interface driver cdc_acm
+Nov 21 14:22:01 FOXTRAL kernel: [  306.510615] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd034]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Linux version 5.15.32-v8+ (dom@buildbot) (aarch64-linux-gnu-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] random: fast init done
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Machine model: Raspberry Pi 3 Model B Rev 1.2
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] efi: UEFI not found.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Reserved memory: created CMA memory pool at 0x0000000037400000, size 64 MiB
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Zone ranges:
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000]   DMA      [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000]   DMA32    empty
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000]   Normal   empty
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Movable zone start for each node
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Early memory node ranges
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000]   node   0: [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] percpu: Embedded 28 pages/cpu s77144 r8192 d29352 u114688
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] pcpu-alloc: s77144 r8192 d29352 u114688 alloc=28*4096
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Detected VIPT I-cache on CPU0
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] CPU features: detected: ARM erratum 843419
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] CPU features: detected: ARM erratum 845719
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 238896
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=1 snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  systemd.restore_state=0 rfkill.default_state=1 console=tty1 root=PARTUUID=4a756e7e-02 rootfstype=ext4 fsck.repair=yes rootwait ro init=/sbin/init-overlay
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Memory: 862280K/970752K available (11456K kernel code, 1962K rwdata, 4144K rodata, 3776K init, 964K bss, 42936K reserved, 65536K cma-reserved)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] ftrace: allocating 37889 entries in 149 pages
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] ftrace: allocated 149 pages with 4 groups
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] trace event string verifier disabled
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: Preemptible hierarchical RCU implementation.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: 	RCU event tracing is enabled.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] 	Trampoline variant of Tasks RCU enabled.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] 	Rude variant of Tasks RCU enabled.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] 	Tracing variant of Tasks RCU enabled.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] Root IRQ handler: bcm2836_arm_irqchip_handle_irq
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x510/0x6f8 with crng_init=1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000001] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Nov 21 14:17:05 FOXTRAL kernel: [    0.000308] Console: colour dummy device 80x25
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001217] printk: console [tty1] enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001306] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=76800)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001371] pid_max: default: 32768 minimum: 301
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001580] LSM: Security Framework initializing
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001796] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.001866] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.003570] cgroup: Disabling memory control group subsystem
+Nov 21 14:17:05 FOXTRAL kernel: [    0.007109] rcu: Hierarchical SRCU implementation.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.008622] EFI services will not be available.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.009425] smp: Bringing up secondary CPUs ...
+Nov 21 14:17:05 FOXTRAL kernel: [    0.010950] Detected VIPT I-cache on CPU1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.011041] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.012872] Detected VIPT I-cache on CPU2
+Nov 21 14:17:05 FOXTRAL kernel: [    0.012939] CPU2: Booted secondary processor 0x0000000002 [0x410fd034]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.014601] Detected VIPT I-cache on CPU3
+Nov 21 14:17:05 FOXTRAL kernel: [    0.014659] CPU3: Booted secondary processor 0x0000000003 [0x410fd034]
+Nov 21 14:17:05 FOXTRAL kernel: [    0.014866] smp: Brought up 1 node, 4 CPUs
+Nov 21 14:17:05 FOXTRAL kernel: [    0.015025] SMP: Total of 4 processors activated.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.015059] CPU features: detected: 32-bit EL0 Support
+Nov 21 14:17:05 FOXTRAL kernel: [    0.015091] CPU features: detected: 32-bit EL1 Support
+Nov 21 14:17:05 FOXTRAL kernel: [    0.015126] CPU features: detected: CRC32 instructions
+Nov 21 14:17:05 FOXTRAL kernel: [    0.054520] CPU: All CPU(s) started at EL2
+Nov 21 14:17:05 FOXTRAL kernel: [    0.054665] alternatives: patching kernel code
+Nov 21 14:17:05 FOXTRAL kernel: [    0.056685] devtmpfs: initialized
+Nov 21 14:17:05 FOXTRAL kernel: [    0.078481] Enabled cp15_barrier support
+Nov 21 14:17:05 FOXTRAL kernel: [    0.078562] Enabled setend support
+Nov 21 14:17:05 FOXTRAL kernel: [    0.078864] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Nov 21 14:17:05 FOXTRAL kernel: [    0.078935] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.083035] pinctrl core: initialized pinctrl subsystem
+Nov 21 14:17:05 FOXTRAL kernel: [    0.084220] DMI not present or invalid.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.084981] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    0.095798] DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+Nov 21 14:17:05 FOXTRAL kernel: [    0.096343] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Nov 21 14:17:05 FOXTRAL kernel: [    0.097857] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Nov 21 14:17:05 FOXTRAL kernel: [    0.098048] audit: initializing netlink subsys (disabled)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.098501] audit: type=2000 audit(0.096:1): state=initialized audit_enabled=0 res=1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.099328] thermal_sys: Registered thermal governor 'step_wise'
+Nov 21 14:17:05 FOXTRAL kernel: [    0.099681] cpuidle: using governor menu
+Nov 21 14:17:05 FOXTRAL kernel: [    0.100332] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.100674] ASID allocator initialised with 65536 entries
+Nov 21 14:17:05 FOXTRAL kernel: [    0.100945] Serial: AMBA PL011 UART driver
+Nov 21 14:17:05 FOXTRAL kernel: [    0.113255] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    0.140729] raspberrypi-firmware soc:firmware: Attached to firmware from 2022-03-24T13:20:54, variant start
+Nov 21 14:17:05 FOXTRAL kernel: [    0.144742] raspberrypi-firmware soc:firmware: Firmware hash is e5a963efa66a1974127860b42e913d2374139ff5
+Nov 21 14:17:05 FOXTRAL kernel: [    0.202897] bcm2835-dma 3f007000.dma: DMA legacy API manager, dmachans=0x1
+Nov 21 14:17:05 FOXTRAL kernel: [    0.208431] vgaarb: loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    0.209157] SCSI subsystem initialized
+Nov 21 14:17:05 FOXTRAL kernel: [    0.209497] usbcore: registered new interface driver usbfs
+Nov 21 14:17:05 FOXTRAL kernel: [    0.209600] usbcore: registered new interface driver hub
+Nov 21 14:17:05 FOXTRAL kernel: [    0.209719] usbcore: registered new device driver usb
+Nov 21 14:17:05 FOXTRAL kernel: [    0.210231] usb_phy_generic phy: supply vcc not found, using dummy regulator
+Nov 21 14:17:05 FOXTRAL kernel: [    0.210882] pps_core: LinuxPPS API ver. 1 registered
+Nov 21 14:17:05 FOXTRAL kernel: [    0.210920] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 21 14:17:05 FOXTRAL kernel: [    0.210985] PTP clock support registered
+Nov 21 14:17:05 FOXTRAL kernel: [    0.213548] clocksource: Switched to clocksource arch_sys_counter
+Nov 21 14:17:05 FOXTRAL kernel: [    0.350376] VFS: Disk quotas dquot_6.6.0
+Nov 21 14:17:05 FOXTRAL kernel: [    0.350545] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.350818] FS-Cache: Loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    0.351160] CacheFiles: Loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    0.366619] NET: Registered PF_INET protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    0.366973] IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.368916] tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369002] TCP established hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369158] TCP bind hash table entries: 8192 (order: 5, 131072 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369387] TCP: Hash tables configured (established 8192 bind 8192)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369752] UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.369840] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+Nov 21 14:17:05 FOXTRAL kernel: [    0.370221] NET: Registered PF_UNIX/PF_LOCAL protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371507] RPC: Registered named UNIX socket transport module.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371550] RPC: Registered udp transport module.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371584] RPC: Registered tcp transport module.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371617] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Nov 21 14:17:05 FOXTRAL kernel: [    0.371664] PCI: CLS 0 bytes, default 64
+Nov 21 14:17:05 FOXTRAL kernel: [    0.374417] hw perfevents: enabled with armv8_cortex_a53 PMU driver, 7 counters available
+Nov 21 14:17:05 FOXTRAL kernel: [    0.374784] kvm [1]: IPA Size Limit: 40 bits
+Nov 21 14:17:05 FOXTRAL kernel: [    0.376501] kvm [1]: Hyp mode initialized successfully
+Nov 21 14:17:05 FOXTRAL kernel: [    1.872103] Initialise system trusted keyrings
+Nov 21 14:17:05 FOXTRAL kernel: [    1.872671] workingset: timestamp_bits=46 max_order=18 bucket_order=0
+Nov 21 14:17:05 FOXTRAL kernel: [    1.883550] zbud: loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    1.886362] FS-Cache: Netfs 'nfs' registered for caching
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887370] NFS: Registering the id_resolver key type
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887457] Key type id_resolver registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887492] Key type id_legacy registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887668] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Nov 21 14:17:05 FOXTRAL kernel: [    1.887710] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+Nov 21 14:17:05 FOXTRAL kernel: [    1.889448] Key type asymmetric registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.889488] Asymmetric key parser 'x509' registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.889668] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Nov 21 14:17:05 FOXTRAL kernel: [    1.890087] io scheduler mq-deadline registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.890126] io scheduler kyber registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.898482] bcm2708_fb soc:fb: FB found 1 display(s)
+Nov 21 14:17:05 FOXTRAL kernel: [    1.916295] Console: switching to colour frame buffer device 82x26
+Nov 21 14:17:05 FOXTRAL kernel: [    1.921179] bcm2708_fb soc:fb: Registered framebuffer for display 0, size 656x416
+Nov 21 14:17:05 FOXTRAL kernel: [    1.932350] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    1.938077] bcm2835-rng 3f104000.rng: hwrng registered
+Nov 21 14:17:05 FOXTRAL kernel: [    1.941592] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Nov 21 14:17:05 FOXTRAL kernel: [    1.948567] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Nov 21 14:17:05 FOXTRAL kernel: [    1.954442] cacheinfo: Unable to detect cache hierarchy for CPU 0
+Nov 21 14:17:05 FOXTRAL kernel: [    1.974849] brd: module loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    1.992563] loop: module loaded
+Nov 21 14:17:05 FOXTRAL kernel: [    1.996268] Loading iSCSI transport class v2.0-870.
+Nov 21 14:17:05 FOXTRAL kernel: [    2.005640] usbcore: registered new interface driver r8152
+Nov 21 14:17:05 FOXTRAL kernel: [    2.008463] usbcore: registered new interface driver lan78xx
+Nov 21 14:17:05 FOXTRAL kernel: [    2.011210] usbcore: registered new interface driver smsc95xx
+Nov 21 14:17:05 FOXTRAL kernel: [    2.014404] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Nov 21 14:17:05 FOXTRAL kernel: [    2.745545] Core Release: 2.80a
+Nov 21 14:17:05 FOXTRAL kernel: [    2.748002] Setting default values for core params
+Nov 21 14:17:05 FOXTRAL kernel: [    2.750554] Finished setting default values for core params
+Nov 21 14:17:05 FOXTRAL kernel: [    2.953612] Using Buffer DMA mode
+Nov 21 14:17:05 FOXTRAL kernel: [    2.956093] Periodic Transfer Interrupt Enhancement - disabled
+Nov 21 14:17:05 FOXTRAL kernel: [    2.958632] Multiprocessor Interrupt Enhancement - disabled
+Nov 21 14:17:05 FOXTRAL kernel: [    2.961099] OTG VER PARAM: 0, OTG VER FLAG: 0
+Nov 21 14:17:05 FOXTRAL kernel: [    2.963532] Dedicated Tx FIFOs mode
+Nov 21 14:17:05 FOXTRAL kernel: [    2.966602] 
+Nov 21 14:17:05 FOXTRAL kernel: [    2.966617] WARN::dwc_otg_hcd_init:1074: FIQ DMA bounce buffers: virt = ffffffc009a51000 dma = 0x00000000f7810000 len=9024
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973372] FIQ FSM acceleration enabled for :
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973372] Non-periodic Split Transactions
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973372] Periodic Split Transactions
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973372] High-Speed Isochronous Endpoints
+Nov 21 14:17:05 FOXTRAL kernel: [    2.973372] Interrupt/Control Split Transaction hack enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    2.983832] dwc_otg: Microframe scheduler enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    2.983870] 
+Nov 21 14:17:05 FOXTRAL kernel: [    2.983883] WARN::hcd_init_fiq:497: MPHI regs_base at ffffffc009635000
+Nov 21 14:17:05 FOXTRAL kernel: [    2.988239] dwc_otg 3f980000.usb: DWC OTG Controller
+Nov 21 14:17:05 FOXTRAL kernel: [    2.990624] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Nov 21 14:17:05 FOXTRAL kernel: [    2.993032] dwc_otg 3f980000.usb: irq 74, io mem 0x00000000
+Nov 21 14:17:05 FOXTRAL kernel: [    2.995400] Init: Port Power? op_state=1
+Nov 21 14:17:05 FOXTRAL kernel: [    2.997692] Init: Power Port (0)
+Nov 21 14:17:05 FOXTRAL kernel: [    3.000394] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Nov 21 14:17:05 FOXTRAL kernel: [    3.004988] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 21 14:17:05 FOXTRAL kernel: [    3.007462] usb usb1: Product: DWC OTG Controller
+Nov 21 14:17:05 FOXTRAL kernel: [    3.009885] usb usb1: Manufacturer: Linux 5.15.32-v8+ dwc_otg_hcd
+Nov 21 14:17:05 FOXTRAL kernel: [    3.012343] usb usb1: SerialNumber: 3f980000.usb
+Nov 21 14:17:05 FOXTRAL kernel: [    3.015812] hub 1-0:1.0: USB hub found
+Nov 21 14:17:05 FOXTRAL kernel: [    3.018316] hub 1-0:1.0: 1 port detected
+Nov 21 14:17:05 FOXTRAL kernel: [    3.021848] dwc_otg: FIQ enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    3.021866] dwc_otg: NAK holdoff enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    3.021881] dwc_otg: FIQ split-transaction FSM enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    3.021903] Module dwc_common_port init
+Nov 21 14:17:05 FOXTRAL kernel: [    3.022695] usbcore: registered new interface driver uas
+Nov 21 14:17:05 FOXTRAL kernel: [    3.025115] usbcore: registered new interface driver usb-storage
+Nov 21 14:17:05 FOXTRAL kernel: [    3.028000] mousedev: PS/2 mouse device common for all mice
+Nov 21 14:17:05 FOXTRAL kernel: [    3.034821] sdhci: Secure Digital Host Controller Interface driver
+Nov 21 14:17:05 FOXTRAL kernel: [    3.037226] sdhci: Copyright(c) Pierre Ossman
+Nov 21 14:17:05 FOXTRAL kernel: [    3.040270] sdhci-pltfm: SDHCI platform and OF driver helper
+Nov 21 14:17:05 FOXTRAL kernel: [    3.047093] ledtrig-cpu: registered to indicate activity on CPUs
+Nov 21 14:17:05 FOXTRAL kernel: [    3.050498] hid: raw HID events driver (C) Jiri Kosina
+Nov 21 14:17:05 FOXTRAL kernel: [    3.053035] usbcore: registered new interface driver usbhid
+Nov 21 14:17:05 FOXTRAL kernel: [    3.055409] usbhid: USB HID core driver
+Nov 21 14:17:05 FOXTRAL kernel: [    3.058190] ashmem: initialized
+Nov 21 14:17:05 FOXTRAL kernel: [    3.068565] Initializing XFRM netlink socket
+Nov 21 14:17:05 FOXTRAL kernel: [    3.070995] NET: Registered PF_PACKET protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    3.073427] Key type dns_resolver registered
+Nov 21 14:17:05 FOXTRAL kernel: [    3.077631] registered taskstats version 1
+Nov 21 14:17:05 FOXTRAL kernel: [    3.079734] Loading compiled-in X.509 certificates
+Nov 21 14:17:05 FOXTRAL kernel: [    3.082700] Key type ._fscrypt registered
+Nov 21 14:17:05 FOXTRAL kernel: [    3.084737] Key type .fscrypt registered
+Nov 21 14:17:05 FOXTRAL kernel: [    3.086758] Key type fscrypt-provisioning registered
+Nov 21 14:17:05 FOXTRAL kernel: [    3.108200] uart-pl011 3f201000.serial: there is not valid maps for state default
+Nov 21 14:17:05 FOXTRAL kernel: [    3.112844] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Nov 21 14:17:05 FOXTRAL kernel: [    3.115381] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 99, base_baud = 0) is a PL011 rev2
+Nov 21 14:17:05 FOXTRAL kernel: [    3.126029] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+Nov 21 14:17:05 FOXTRAL kernel: [    3.129124] bcm2835-power bcm2835-power: Broadcom BCM2835 power domains driver
+Nov 21 14:17:05 FOXTRAL kernel: [    3.129816] Indeed it is in host mode hprt0 = 00021501
+Nov 21 14:17:05 FOXTRAL kernel: [    3.134412] mmc-bcm2835 3f300000.mmcnr: mmc_debug:0 mmc_debug2:0
+Nov 21 14:17:05 FOXTRAL kernel: [    3.136891] mmc-bcm2835 3f300000.mmcnr: DMA channel allocated
+Nov 21 14:17:05 FOXTRAL kernel: [    3.166299] sdhost: log_buf @ (____ptrval____) (c2b75000)
+Nov 21 14:17:05 FOXTRAL kernel: [    3.219786] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Nov 21 14:17:05 FOXTRAL kernel: [    3.247471] of_cfs_init
+Nov 21 14:17:05 FOXTRAL kernel: [    3.250203] of_cfs_init: OK
+Nov 21 14:17:05 FOXTRAL kernel: [    3.254469] Waiting for root device PARTUUID=4a756e7e-02...
+Nov 21 14:17:05 FOXTRAL kernel: [    3.284602] mmc0: host does not support reading read-only switch, assuming write-enable
+Nov 21 14:17:05 FOXTRAL kernel: [    3.293908] mmc0: new high speed SDHC card at address 5048
+Nov 21 14:17:05 FOXTRAL kernel: [    3.298555] mmcblk0: mmc0:5048 SD32G 29.7 GiB 
+Nov 21 14:17:05 FOXTRAL kernel: [    3.308177]  mmcblk0: p1 p2
+Nov 21 14:17:05 FOXTRAL kernel: [    3.311919] mmcblk0: mmc0:5048 SD32G 29.7 GiB
+Nov 21 14:17:05 FOXTRAL kernel: [    3.322842] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    3.325801] Indeed it is in host mode hprt0 = 00001101
+Nov 21 14:17:05 FOXTRAL kernel: [    3.329072] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Nov 21 14:17:05 FOXTRAL kernel: [    3.331767] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Nov 21 14:17:05 FOXTRAL kernel: [    3.358379] mmc1: new high speed SDIO card at address 0001
+Nov 21 14:17:05 FOXTRAL kernel: [    3.534225] usb 1-1: New USB device found, idVendor=0424, idProduct=9514, bcdDevice= 2.00
+Nov 21 14:17:05 FOXTRAL kernel: [    3.539325] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov 21 14:17:05 FOXTRAL kernel: [    3.543331] hub 1-1:1.0: USB hub found
+Nov 21 14:17:05 FOXTRAL kernel: [    3.546310] hub 1-1:1.0: 5 ports detected
+Nov 21 14:17:05 FOXTRAL kernel: [    3.618453] EXT4-fs (mmcblk0p2): recovery complete
+Nov 21 14:17:05 FOXTRAL kernel: [    3.623931] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Nov 21 14:17:05 FOXTRAL kernel: [    3.629326] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Nov 21 14:17:05 FOXTRAL kernel: [    3.641301] devtmpfs: mounted
+Nov 21 14:17:05 FOXTRAL kernel: [    3.655644] Freeing unused kernel memory: 3776K
+Nov 21 14:17:05 FOXTRAL kernel: [    3.658511] Run /sbin/init-overlay as init process
+Nov 21 14:17:05 FOXTRAL kernel: [    3.661111]   with arguments:
+Nov 21 14:17:05 FOXTRAL kernel: [    3.661125]     /sbin/init-overlay
+Nov 21 14:17:05 FOXTRAL kernel: [    3.661140]   with environment:
+Nov 21 14:17:05 FOXTRAL kernel: [    3.661152]     HOME=/
+Nov 21 14:17:05 FOXTRAL kernel: [    3.661166]     TERM=linux
+Nov 21 14:17:05 FOXTRAL kernel: [    3.837683] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    3.938200] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00, bcdDevice= 2.00
+Nov 21 14:17:05 FOXTRAL kernel: [    3.943877] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov 21 14:17:05 FOXTRAL kernel: [    3.950189] smsc95xx v2.0.0
+Nov 21 14:17:05 FOXTRAL kernel: [    4.274813] random: crng init done
+Nov 21 14:17:05 FOXTRAL kernel: [    4.306783] SMSC LAN8700 usb-001:003:01: attached PHY driver (mii_bus:phy_addr=usb-001:003:01, irq=POLL)
+Nov 21 14:17:05 FOXTRAL kernel: [    4.313683] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:55:95:06
+Nov 21 14:17:05 FOXTRAL kernel: [    4.397613] usb 1-1.2: new high-speed USB device number 4 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    4.478488] NET: Registered PF_INET6 protocol family
+Nov 21 14:17:05 FOXTRAL kernel: [    4.484199] Segment Routing with IPv6
+Nov 21 14:17:05 FOXTRAL kernel: [    4.487266] In-situ OAM (IOAM) with IPv6
+Nov 21 14:17:05 FOXTRAL kernel: [    4.513926] usb 1-1.2: New USB device found, idVendor=0bda, idProduct=2838, bcdDevice= 1.00
+Nov 21 14:17:05 FOXTRAL kernel: [    4.519780] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 21 14:17:05 FOXTRAL kernel: [    4.522869] usb 1-1.2: Product: RTL2838UHIDIR
+Nov 21 14:17:05 FOXTRAL kernel: [    4.525950] usb 1-1.2: Manufacturer: Realtek
+Nov 21 14:17:05 FOXTRAL kernel: [    4.528921] usb 1-1.2: SerialNumber: 00000001
+Nov 21 14:17:05 FOXTRAL kernel: [    4.617649] usb 1-1.3: new high-speed USB device number 5 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    4.734778] usb 1-1.3: New USB device found, idVendor=0bda, idProduct=2838, bcdDevice= 1.00
+Nov 21 14:17:05 FOXTRAL kernel: [    4.740362] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 21 14:17:05 FOXTRAL kernel: [    4.743311] usb 1-1.3: Product: RTL2838UHIDIR
+Nov 21 14:17:05 FOXTRAL kernel: [    4.746214] usb 1-1.3: Manufacturer: Realtek
+Nov 21 14:17:05 FOXTRAL kernel: [    4.749020] usb 1-1.3: SerialNumber: 00000001
+Nov 21 14:17:05 FOXTRAL kernel: [    4.845618] usb 1-1.5: new full-speed USB device number 6 using dwc_otg
+Nov 21 14:17:05 FOXTRAL kernel: [    4.952497] usb 1-1.5: New USB device found, idVendor=1546, idProduct=01a7, bcdDevice= 1.00
+Nov 21 14:17:05 FOXTRAL kernel: [    4.957802] usb 1-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 21 14:17:05 FOXTRAL kernel: [    4.960680] usb 1-1.5: Product: u-blox 7 - GPS/GNSS Receiver
+Nov 21 14:17:05 FOXTRAL kernel: [    4.963489] usb 1-1.5: Manufacturer: u-blox AG - www.u-blox.com
+Nov 21 14:17:05 FOXTRAL kernel: [    6.009238] fuse: init (API version 7.34)
+Nov 21 14:17:05 FOXTRAL kernel: [    6.198392] i2c_dev: i2c /dev entries driver
+Nov 21 14:17:05 FOXTRAL kernel: [    6.710416] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null). Quota mode: none.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.833792] mc: Linux media interface: v0.10
+Nov 21 14:17:05 FOXTRAL kernel: [    7.865983] vc_sm_cma: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.868168] bcm2835_vc_sm_cma_probe: Videocore shared memory driver
+Nov 21 14:17:05 FOXTRAL kernel: [    7.868215] [vc_sm_connected_init]: start
+Nov 21 14:17:05 FOXTRAL kernel: [    7.877743] videodev: Linux video capture interface: v2.00
+Nov 21 14:17:05 FOXTRAL kernel: [    7.879804] [vc_sm_connected_init]: installed successfully
+Nov 21 14:17:05 FOXTRAL kernel: [    7.941947] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.943436] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.966021] bcm2835_isp: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.968580] bcm2835_v4l2: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.971797] bcm2835_codec: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.978021] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 21 14:17:05 FOXTRAL kernel: [    7.981051] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video13
+Nov 21 14:17:05 FOXTRAL kernel: [    7.989218] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video14
+Nov 21 14:17:05 FOXTRAL kernel: [    7.993670] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video15
+Nov 21 14:17:05 FOXTRAL kernel: [    7.995221] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video16
+Nov 21 14:17:05 FOXTRAL kernel: [    7.995284] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.995334] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.995363] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    7.995391] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    8.003766] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video20
+Nov 21 14:17:05 FOXTRAL kernel: [    8.006036] bcm2835_audio bcm2835_audio: card created with 8 channels
+Nov 21 14:17:05 FOXTRAL kernel: [    8.022751] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video21
+Nov 21 14:17:05 FOXTRAL kernel: [    8.023730] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video22
+Nov 21 14:17:05 FOXTRAL kernel: [    8.024617] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video23
+Nov 21 14:17:05 FOXTRAL kernel: [    8.024675] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    8.024710] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    8.024739] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    8.024768] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Nov 21 14:17:05 FOXTRAL kernel: [    8.025312] bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp
+Nov 21 14:17:05 FOXTRAL kernel: [    8.051474] bcm2835-codec bcm2835-codec: Device registered as /dev/video10
+Nov 21 14:17:05 FOXTRAL kernel: [    8.051571] bcm2835-codec bcm2835-codec: Loaded V4L2 decode
+Nov 21 14:17:05 FOXTRAL kernel: [    8.082756] bcm2835-codec bcm2835-codec: Device registered as /dev/video11
+Nov 21 14:17:05 FOXTRAL kernel: [    8.082839] bcm2835-codec bcm2835-codec: Loaded V4L2 encode
+Nov 21 14:17:05 FOXTRAL kernel: [    8.097950] bcm2835-codec bcm2835-codec: Device registered as /dev/video12
+Nov 21 14:17:05 FOXTRAL kernel: [    8.098047] bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+Nov 21 14:17:05 FOXTRAL kernel: [    8.105149] bcm2835-codec bcm2835-codec: Device registered as /dev/video18
+Nov 21 14:17:05 FOXTRAL kernel: [    8.105238] bcm2835-codec bcm2835-codec: Loaded V4L2 image_fx
+Nov 21 14:17:05 FOXTRAL kernel: [    8.111145] bcm2835-codec bcm2835-codec: Device registered as /dev/video31
+Nov 21 14:17:05 FOXTRAL kernel: [    8.111231] bcm2835-codec bcm2835-codec: Loaded V4L2 encode_image
+Nov 21 14:17:05 FOXTRAL kernel: [    8.529615] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Nov 21 14:17:05 FOXTRAL kernel: [    8.569578] cdc_acm 1-1.5:1.0: ttyACM0: USB ACM device
+Nov 21 14:17:05 FOXTRAL kernel: [    8.569856] usbcore: registered new interface driver cdc_acm
+Nov 21 14:17:05 FOXTRAL kernel: [    8.569877] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Nov 21 14:17:05 FOXTRAL kernel: [    8.593387] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Nov 21 14:17:05 FOXTRAL kernel: [    8.616021] cfg80211: loaded regulatory.db is malformed or signature is missing/invalid
+Nov 21 14:17:05 FOXTRAL kernel: [    8.689640] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Nov 21 14:17:05 FOXTRAL kernel: [    8.700146] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 21 14:17:05 FOXTRAL kernel: [    8.701107] usbcore: registered new interface driver brcmfmac
+Nov 21 14:17:05 FOXTRAL kernel: [    8.771385] brcmfmac mmc1:0001:1: Direct firmware load for brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.bin failed with error -2
+Nov 21 14:17:05 FOXTRAL kernel: [    9.083615] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 21 14:17:05 FOXTRAL kernel: [    9.083821] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 21 14:17:05 FOXTRAL kernel: [    9.096072] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43430/1 wl0: Jul 19 2021 03:24:18 version 7.45.98 (TOB) (56df937 CY) FWID 01-8e14b897
+Nov 21 14:17:05 FOXTRAL kernel: [   10.769352] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Nov 21 14:17:05 FOXTRAL kernel: [   10.841976] smsc95xx 1-1.1:1.0 eth0: Link is Down
+Nov 21 14:17:07 FOXTRAL kernel: [   12.398694] IPv6: ADDRCONF(NETDEV_CHANGE): ap0: link becomes ready
+Nov 21 14:17:10 FOXTRAL kernel: [   15.884560] 
+Nov 21 14:17:10 FOXTRAL kernel: [   15.884587] WARN::dwc_otg_hcd_urb_dequeue:639: Timed out waiting for FSM NP transfer to complete on 5
+Nov 27 14:39:08 FOXTRAL kernel: [   16.907196] brcmfmac: brcmf_cfg80211_set_power_mgmt: power save disabled
+Nov 27 14:39:13 FOXTRAL kernel: [   21.879804] uart-pl011 3f201000.serial: no DMA platform data
+Nov 27 14:39:25 FOXTRAL kernel: [   33.757630] cam-dummy-reg: disabling
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd034]
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Linux version 5.15.32-v8+ (dom@buildbot) (aarch64-linux-gnu-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] random: fast init done
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Machine model: Raspberry Pi 3 Model B Rev 1.2
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] efi: UEFI not found.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Reserved memory: created CMA memory pool at 0x0000000037400000, size 64 MiB
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Zone ranges:
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000]   DMA      [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000]   DMA32    empty
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000]   Normal   empty
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Movable zone start for each node
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Early memory node ranges
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000]   node   0: [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x000000003b3fffff]
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] percpu: Embedded 28 pages/cpu s77144 r8192 d29352 u114688
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] pcpu-alloc: s77144 r8192 d29352 u114688 alloc=28*4096
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Detected VIPT I-cache on CPU0
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] CPU features: detected: ARM erratum 843419
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] CPU features: detected: ARM erratum 845719
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 238896
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=1 snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  systemd.restore_state=0 rfkill.default_state=1 console=tty1 root=PARTUUID=4a756e7e-02 rootfstype=ext4 fsck.repair=yes rootwait ro init=/sbin/init-overlay
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Memory: 862280K/970752K available (11456K kernel code, 1962K rwdata, 4144K rodata, 3776K init, 964K bss, 42936K reserved, 65536K cma-reserved)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] ftrace: allocating 37889 entries in 149 pages
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] ftrace: allocated 149 pages with 4 groups
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] trace event string verifier disabled
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] rcu: Preemptible hierarchical RCU implementation.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] rcu: 	RCU event tracing is enabled.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] 	Trampoline variant of Tasks RCU enabled.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] 	Rude variant of Tasks RCU enabled.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] 	Tracing variant of Tasks RCU enabled.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] Root IRQ handler: bcm2836_arm_irqchip_handle_irq
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x510/0x6f8 with crng_init=1
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000001] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Nov 28 13:17:05 FOXTRAL kernel: [    0.000311] Console: colour dummy device 80x25
+Nov 28 13:17:05 FOXTRAL kernel: [    0.001221] printk: console [tty1] enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    0.001312] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=76800)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.001377] pid_max: default: 32768 minimum: 301
+Nov 28 13:17:05 FOXTRAL kernel: [    0.001586] LSM: Security Framework initializing
+Nov 28 13:17:05 FOXTRAL kernel: [    0.001805] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.001874] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.003584] cgroup: Disabling memory control group subsystem
+Nov 28 13:17:05 FOXTRAL kernel: [    0.007123] rcu: Hierarchical SRCU implementation.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.008625] EFI services will not be available.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.009428] smp: Bringing up secondary CPUs ...
+Nov 28 13:17:05 FOXTRAL kernel: [    0.010945] Detected VIPT I-cache on CPU1
+Nov 28 13:17:05 FOXTRAL kernel: [    0.011037] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
+Nov 28 13:17:05 FOXTRAL kernel: [    0.012863] Detected VIPT I-cache on CPU2
+Nov 28 13:17:05 FOXTRAL kernel: [    0.012927] CPU2: Booted secondary processor 0x0000000002 [0x410fd034]
+Nov 28 13:17:05 FOXTRAL kernel: [    0.014591] Detected VIPT I-cache on CPU3
+Nov 28 13:17:05 FOXTRAL kernel: [    0.014648] CPU3: Booted secondary processor 0x0000000003 [0x410fd034]
+Nov 28 13:17:05 FOXTRAL kernel: [    0.014856] smp: Brought up 1 node, 4 CPUs
+Nov 28 13:17:05 FOXTRAL kernel: [    0.015015] SMP: Total of 4 processors activated.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.015050] CPU features: detected: 32-bit EL0 Support
+Nov 28 13:17:05 FOXTRAL kernel: [    0.015082] CPU features: detected: 32-bit EL1 Support
+Nov 28 13:17:05 FOXTRAL kernel: [    0.015117] CPU features: detected: CRC32 instructions
+Nov 28 13:17:05 FOXTRAL kernel: [    0.054851] CPU: All CPU(s) started at EL2
+Nov 28 13:17:05 FOXTRAL kernel: [    0.054997] alternatives: patching kernel code
+Nov 28 13:17:05 FOXTRAL kernel: [    0.057022] devtmpfs: initialized
+Nov 28 13:17:05 FOXTRAL kernel: [    0.078813] Enabled cp15_barrier support
+Nov 28 13:17:05 FOXTRAL kernel: [    0.078895] Enabled setend support
+Nov 28 13:17:05 FOXTRAL kernel: [    0.079196] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Nov 28 13:17:05 FOXTRAL kernel: [    0.079268] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.083376] pinctrl core: initialized pinctrl subsystem
+Nov 28 13:17:05 FOXTRAL kernel: [    0.084610] DMI not present or invalid.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.085314] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Nov 28 13:17:05 FOXTRAL kernel: [    0.096137] DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+Nov 28 13:17:05 FOXTRAL kernel: [    0.096703] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Nov 28 13:17:05 FOXTRAL kernel: [    0.098195] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Nov 28 13:17:05 FOXTRAL kernel: [    0.098384] audit: initializing netlink subsys (disabled)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.098856] audit: type=2000 audit(0.096:1): state=initialized audit_enabled=0 res=1
+Nov 28 13:17:05 FOXTRAL kernel: [    0.099656] thermal_sys: Registered thermal governor 'step_wise'
+Nov 28 13:17:05 FOXTRAL kernel: [    0.100010] cpuidle: using governor menu
+Nov 28 13:17:05 FOXTRAL kernel: [    0.100711] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.101018] ASID allocator initialised with 65536 entries
+Nov 28 13:17:05 FOXTRAL kernel: [    0.101288] Serial: AMBA PL011 UART driver
+Nov 28 13:17:05 FOXTRAL kernel: [    0.113602] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    0.140664] raspberrypi-firmware soc:firmware: Attached to firmware from 2022-03-24T13:20:54, variant start
+Nov 28 13:17:05 FOXTRAL kernel: [    0.144690] raspberrypi-firmware soc:firmware: Firmware hash is e5a963efa66a1974127860b42e913d2374139ff5
+Nov 28 13:17:05 FOXTRAL kernel: [    0.202743] bcm2835-dma 3f007000.dma: DMA legacy API manager, dmachans=0x1
+Nov 28 13:17:05 FOXTRAL kernel: [    0.208167] vgaarb: loaded
+Nov 28 13:17:05 FOXTRAL kernel: [    0.208829] SCSI subsystem initialized
+Nov 28 13:17:05 FOXTRAL kernel: [    0.209229] usbcore: registered new interface driver usbfs
+Nov 28 13:17:05 FOXTRAL kernel: [    0.209332] usbcore: registered new interface driver hub
+Nov 28 13:17:05 FOXTRAL kernel: [    0.209452] usbcore: registered new device driver usb
+Nov 28 13:17:05 FOXTRAL kernel: [    0.209968] usb_phy_generic phy: supply vcc not found, using dummy regulator
+Nov 28 13:17:05 FOXTRAL kernel: [    0.210623] pps_core: LinuxPPS API ver. 1 registered
+Nov 28 13:17:05 FOXTRAL kernel: [    0.210661] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 28 13:17:05 FOXTRAL kernel: [    0.210726] PTP clock support registered
+Nov 28 13:17:05 FOXTRAL kernel: [    0.213087] clocksource: Switched to clocksource arch_sys_counter
+Nov 28 13:17:05 FOXTRAL kernel: [    0.349919] VFS: Disk quotas dquot_6.6.0
+Nov 28 13:17:05 FOXTRAL kernel: [    0.350090] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.350362] FS-Cache: Loaded
+Nov 28 13:17:05 FOXTRAL kernel: [    0.350706] CacheFiles: Loaded
+Nov 28 13:17:05 FOXTRAL kernel: [    0.366179] NET: Registered PF_INET protocol family
+Nov 28 13:17:05 FOXTRAL kernel: [    0.366532] IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.368469] tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.368554] TCP established hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.368708] TCP bind hash table entries: 8192 (order: 5, 131072 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.368938] TCP: Hash tables configured (established 8192 bind 8192)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.369285] UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.369372] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+Nov 28 13:17:05 FOXTRAL kernel: [    0.369754] NET: Registered PF_UNIX/PF_LOCAL protocol family
+Nov 28 13:17:05 FOXTRAL kernel: [    0.371043] RPC: Registered named UNIX socket transport module.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.371086] RPC: Registered udp transport module.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.371120] RPC: Registered tcp transport module.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.371153] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Nov 28 13:17:05 FOXTRAL kernel: [    0.371201] PCI: CLS 0 bytes, default 64
+Nov 28 13:17:05 FOXTRAL kernel: [    0.373956] hw perfevents: enabled with armv8_cortex_a53 PMU driver, 7 counters available
+Nov 28 13:17:05 FOXTRAL kernel: [    0.374320] kvm [1]: IPA Size Limit: 40 bits
+Nov 28 13:17:05 FOXTRAL kernel: [    0.376062] kvm [1]: Hyp mode initialized successfully
+Nov 28 13:17:05 FOXTRAL kernel: [    1.871277] Initialise system trusted keyrings
+Nov 28 13:17:05 FOXTRAL kernel: [    1.871834] workingset: timestamp_bits=46 max_order=18 bucket_order=0
+Nov 28 13:17:05 FOXTRAL kernel: [    1.882727] zbud: loaded
+Nov 28 13:17:05 FOXTRAL kernel: [    1.885539] FS-Cache: Netfs 'nfs' registered for caching
+Nov 28 13:17:05 FOXTRAL kernel: [    1.886549] NFS: Registering the id_resolver key type
+Nov 28 13:17:05 FOXTRAL kernel: [    1.886620] Key type id_resolver registered
+Nov 28 13:17:05 FOXTRAL kernel: [    1.886655] Key type id_legacy registered
+Nov 28 13:17:05 FOXTRAL kernel: [    1.886830] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Nov 28 13:17:05 FOXTRAL kernel: [    1.886872] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+Nov 28 13:17:05 FOXTRAL kernel: [    1.888613] Key type asymmetric registered
+Nov 28 13:17:05 FOXTRAL kernel: [    1.888653] Asymmetric key parser 'x509' registered
+Nov 28 13:17:05 FOXTRAL kernel: [    1.888783] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Nov 28 13:17:05 FOXTRAL kernel: [    1.889253] io scheduler mq-deadline registered
+Nov 28 13:17:05 FOXTRAL kernel: [    1.889293] io scheduler kyber registered
+Nov 28 13:17:05 FOXTRAL kernel: [    1.897651] bcm2708_fb soc:fb: FB found 1 display(s)
+Nov 28 13:17:05 FOXTRAL kernel: [    1.915472] Console: switching to colour frame buffer device 82x26
+Nov 28 13:17:05 FOXTRAL kernel: [    1.920357] bcm2708_fb soc:fb: Registered framebuffer for display 0, size 656x416
+Nov 28 13:17:05 FOXTRAL kernel: [    1.931538] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    1.937259] bcm2835-rng 3f104000.rng: hwrng registered
+Nov 28 13:17:05 FOXTRAL kernel: [    1.940711] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Nov 28 13:17:05 FOXTRAL kernel: [    1.947700] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Nov 28 13:17:05 FOXTRAL kernel: [    1.953582] cacheinfo: Unable to detect cache hierarchy for CPU 0
+Nov 28 13:17:05 FOXTRAL kernel: [    1.973974] brd: module loaded
+Nov 28 13:17:05 FOXTRAL kernel: [    1.991683] loop: module loaded
+Nov 28 13:17:05 FOXTRAL kernel: [    1.995394] Loading iSCSI transport class v2.0-870.
+Nov 28 13:17:05 FOXTRAL kernel: [    2.004719] usbcore: registered new interface driver r8152
+Nov 28 13:17:05 FOXTRAL kernel: [    2.007584] usbcore: registered new interface driver lan78xx
+Nov 28 13:17:05 FOXTRAL kernel: [    2.010324] usbcore: registered new interface driver smsc95xx
+Nov 28 13:17:05 FOXTRAL kernel: [    2.013508] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Nov 28 13:17:05 FOXTRAL kernel: [    2.744616] Core Release: 2.80a
+Nov 28 13:17:05 FOXTRAL kernel: [    2.747101] Setting default values for core params
+Nov 28 13:17:05 FOXTRAL kernel: [    2.749656] Finished setting default values for core params
+Nov 28 13:17:05 FOXTRAL kernel: [    2.952651] Using Buffer DMA mode
+Nov 28 13:17:05 FOXTRAL kernel: [    2.955147] Periodic Transfer Interrupt Enhancement - disabled
+Nov 28 13:17:05 FOXTRAL kernel: [    2.957685] Multiprocessor Interrupt Enhancement - disabled
+Nov 28 13:17:05 FOXTRAL kernel: [    2.960148] OTG VER PARAM: 0, OTG VER FLAG: 0
+Nov 28 13:17:05 FOXTRAL kernel: [    2.962579] Dedicated Tx FIFOs mode
+Nov 28 13:17:05 FOXTRAL kernel: [    2.965647] 
+Nov 28 13:17:05 FOXTRAL kernel: [    2.965662] WARN::dwc_otg_hcd_init:1074: FIQ DMA bounce buffers: virt = ffffffc009a51000 dma = 0x00000000f7810000 len=9024
+Nov 28 13:17:05 FOXTRAL kernel: [    2.972408] FIQ FSM acceleration enabled for :
+Nov 28 13:17:05 FOXTRAL kernel: [    2.972408] Non-periodic Split Transactions
+Nov 28 13:17:05 FOXTRAL kernel: [    2.972408] Periodic Split Transactions
+Nov 28 13:17:05 FOXTRAL kernel: [    2.972408] High-Speed Isochronous Endpoints
+Nov 28 13:17:05 FOXTRAL kernel: [    2.972408] Interrupt/Control Split Transaction hack enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    2.982844] dwc_otg: Microframe scheduler enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    2.982883] 
+Nov 28 13:17:05 FOXTRAL kernel: [    2.982896] WARN::hcd_init_fiq:497: MPHI regs_base at ffffffc009635000
+Nov 28 13:17:05 FOXTRAL kernel: [    2.987238] dwc_otg 3f980000.usb: DWC OTG Controller
+Nov 28 13:17:05 FOXTRAL kernel: [    2.989623] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Nov 28 13:17:05 FOXTRAL kernel: [    2.992027] dwc_otg 3f980000.usb: irq 74, io mem 0x00000000
+Nov 28 13:17:05 FOXTRAL kernel: [    2.994392] Init: Port Power? op_state=1
+Nov 28 13:17:05 FOXTRAL kernel: [    2.996661] Init: Power Port (0)
+Nov 28 13:17:05 FOXTRAL kernel: [    2.999386] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Nov 28 13:17:05 FOXTRAL kernel: [    3.003968] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 28 13:17:05 FOXTRAL kernel: [    3.006440] usb usb1: Product: DWC OTG Controller
+Nov 28 13:17:05 FOXTRAL kernel: [    3.008839] usb usb1: Manufacturer: Linux 5.15.32-v8+ dwc_otg_hcd
+Nov 28 13:17:05 FOXTRAL kernel: [    3.011314] usb usb1: SerialNumber: 3f980000.usb
+Nov 28 13:17:05 FOXTRAL kernel: [    3.014781] hub 1-0:1.0: USB hub found
+Nov 28 13:17:05 FOXTRAL kernel: [    3.017278] hub 1-0:1.0: 1 port detected
+Nov 28 13:17:05 FOXTRAL kernel: [    3.020759] dwc_otg: FIQ enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    3.020778] dwc_otg: NAK holdoff enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    3.020793] dwc_otg: FIQ split-transaction FSM enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    3.020814] Module dwc_common_port init
+Nov 28 13:17:05 FOXTRAL kernel: [    3.021630] usbcore: registered new interface driver uas
+Nov 28 13:17:05 FOXTRAL kernel: [    3.024039] usbcore: registered new interface driver usb-storage
+Nov 28 13:17:05 FOXTRAL kernel: [    3.026921] mousedev: PS/2 mouse device common for all mice
+Nov 28 13:17:05 FOXTRAL kernel: [    3.033767] sdhci: Secure Digital Host Controller Interface driver
+Nov 28 13:17:05 FOXTRAL kernel: [    3.036165] sdhci: Copyright(c) Pierre Ossman
+Nov 28 13:17:05 FOXTRAL kernel: [    3.039190] sdhci-pltfm: SDHCI platform and OF driver helper
+Nov 28 13:17:05 FOXTRAL kernel: [    3.045050] ledtrig-cpu: registered to indicate activity on CPUs
+Nov 28 13:17:05 FOXTRAL kernel: [    3.048357] hid: raw HID events driver (C) Jiri Kosina
+Nov 28 13:17:05 FOXTRAL kernel: [    3.050976] usbcore: registered new interface driver usbhid
+Nov 28 13:17:05 FOXTRAL kernel: [    3.053342] usbhid: USB HID core driver
+Nov 28 13:17:05 FOXTRAL kernel: [    3.056095] ashmem: initialized
+Nov 28 13:17:05 FOXTRAL kernel: [    3.066605] Initializing XFRM netlink socket
+Nov 28 13:17:05 FOXTRAL kernel: [    3.068990] NET: Registered PF_PACKET protocol family
+Nov 28 13:17:05 FOXTRAL kernel: [    3.071436] Key type dns_resolver registered
+Nov 28 13:17:05 FOXTRAL kernel: [    3.075578] registered taskstats version 1
+Nov 28 13:17:05 FOXTRAL kernel: [    3.077741] Loading compiled-in X.509 certificates
+Nov 28 13:17:05 FOXTRAL kernel: [    3.080686] Key type ._fscrypt registered
+Nov 28 13:17:05 FOXTRAL kernel: [    3.082769] Key type .fscrypt registered
+Nov 28 13:17:05 FOXTRAL kernel: [    3.084752] Key type fscrypt-provisioning registered
+Nov 28 13:17:05 FOXTRAL kernel: [    3.106119] uart-pl011 3f201000.serial: there is not valid maps for state default
+Nov 28 13:17:05 FOXTRAL kernel: [    3.110738] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Nov 28 13:17:05 FOXTRAL kernel: [    3.113301] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 99, base_baud = 0) is a PL011 rev2
+Nov 28 13:17:05 FOXTRAL kernel: [    3.123963] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+Nov 28 13:17:05 FOXTRAL kernel: [    3.127096] bcm2835-power bcm2835-power: Broadcom BCM2835 power domains driver
+Nov 28 13:17:05 FOXTRAL kernel: [    3.129354] Indeed it is in host mode hprt0 = 00021501
+Nov 28 13:17:05 FOXTRAL kernel: [    3.132373] mmc-bcm2835 3f300000.mmcnr: mmc_debug:0 mmc_debug2:0
+Nov 28 13:17:05 FOXTRAL kernel: [    3.134885] mmc-bcm2835 3f300000.mmcnr: DMA channel allocated
+Nov 28 13:17:05 FOXTRAL kernel: [    3.165533] sdhost: log_buf @ (____ptrval____) (c2b86000)
+Nov 28 13:17:05 FOXTRAL kernel: [    3.218347] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Nov 28 13:17:05 FOXTRAL kernel: [    3.246148] of_cfs_init
+Nov 28 13:17:05 FOXTRAL kernel: [    3.248798] of_cfs_init: OK
+Nov 28 13:17:05 FOXTRAL kernel: [    3.253215] Waiting for root device PARTUUID=4a756e7e-02...
+Nov 28 13:17:05 FOXTRAL kernel: [    3.281491] mmc0: host does not support reading read-only switch, assuming write-enable
+Nov 28 13:17:05 FOXTRAL kernel: [    3.290772] mmc0: new high speed SDHC card at address 5048
+Nov 28 13:17:05 FOXTRAL kernel: [    3.295560] mmcblk0: mmc0:5048 SD32G 29.7 GiB 
+Nov 28 13:17:05 FOXTRAL kernel: [    3.305383]  mmcblk0: p1 p2
+Nov 28 13:17:05 FOXTRAL kernel: [    3.309143] mmcblk0: mmc0:5048 SD32G 29.7 GiB
+Nov 28 13:17:05 FOXTRAL kernel: [    3.317807] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Nov 28 13:17:05 FOXTRAL kernel: [    3.320902] Indeed it is in host mode hprt0 = 00001101
+Nov 28 13:17:05 FOXTRAL kernel: [    3.332418] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Nov 28 13:17:05 FOXTRAL kernel: [    3.335152] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Nov 28 13:17:05 FOXTRAL kernel: [    3.350868] mmc1: new high speed SDIO card at address 0001
+Nov 28 13:17:05 FOXTRAL kernel: [    3.529711] usb 1-1: New USB device found, idVendor=0424, idProduct=9514, bcdDevice= 2.00
+Nov 28 13:17:05 FOXTRAL kernel: [    3.534911] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov 28 13:17:05 FOXTRAL kernel: [    3.538788] hub 1-1:1.0: USB hub found
+Nov 28 13:17:05 FOXTRAL kernel: [    3.541660] hub 1-1:1.0: 5 ports detected
+Nov 28 13:17:05 FOXTRAL kernel: [    3.627816] EXT4-fs (mmcblk0p2): recovery complete
+Nov 28 13:17:05 FOXTRAL kernel: [    3.633346] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Nov 28 13:17:05 FOXTRAL kernel: [    3.638720] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Nov 28 13:17:05 FOXTRAL kernel: [    3.650772] devtmpfs: mounted
+Nov 28 13:17:05 FOXTRAL kernel: [    3.664840] Freeing unused kernel memory: 3776K
+Nov 28 13:17:05 FOXTRAL kernel: [    3.667759] Run /sbin/init-overlay as init process
+Nov 28 13:17:05 FOXTRAL kernel: [    3.670409]   with arguments:
+Nov 28 13:17:05 FOXTRAL kernel: [    3.670423]     /sbin/init-overlay
+Nov 28 13:17:05 FOXTRAL kernel: [    3.670438]   with environment:
+Nov 28 13:17:05 FOXTRAL kernel: [    3.670451]     HOME=/
+Nov 28 13:17:05 FOXTRAL kernel: [    3.670465]     TERM=linux
+Nov 28 13:17:05 FOXTRAL kernel: [    3.833148] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Nov 28 13:17:05 FOXTRAL kernel: [    3.933902] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00, bcdDevice= 2.00
+Nov 28 13:17:05 FOXTRAL kernel: [    3.939633] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov 28 13:17:05 FOXTRAL kernel: [    3.945885] smsc95xx v2.0.0
+Nov 28 13:17:05 FOXTRAL kernel: [    4.270122] random: crng init done
+Nov 28 13:17:05 FOXTRAL kernel: [    4.282379] SMSC LAN8700 usb-001:003:01: attached PHY driver (mii_bus:phy_addr=usb-001:003:01, irq=POLL)
+Nov 28 13:17:05 FOXTRAL kernel: [    4.289415] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:55:95:06
+Nov 28 13:17:05 FOXTRAL kernel: [    4.373135] usb 1-1.2: new high-speed USB device number 4 using dwc_otg
+Nov 28 13:17:05 FOXTRAL kernel: [    4.489493] usb 1-1.2: New USB device found, idVendor=0bda, idProduct=2838, bcdDevice= 1.00
+Nov 28 13:17:05 FOXTRAL kernel: [    4.495760] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 28 13:17:05 FOXTRAL kernel: [    4.498923] usb 1-1.2: Product: RTL2838UHIDIR
+Nov 28 13:17:05 FOXTRAL kernel: [    4.501933] usb 1-1.2: Manufacturer: Realtek
+Nov 28 13:17:05 FOXTRAL kernel: [    4.504844] usb 1-1.2: SerialNumber: 00000001
+Nov 28 13:17:05 FOXTRAL kernel: [    4.522560] NET: Registered PF_INET6 protocol family
+Nov 28 13:17:05 FOXTRAL kernel: [    4.528046] Segment Routing with IPv6
+Nov 28 13:17:05 FOXTRAL kernel: [    4.531040] In-situ OAM (IOAM) with IPv6
+Nov 28 13:17:05 FOXTRAL kernel: [    4.601160] usb 1-1.3: new high-speed USB device number 5 using dwc_otg
+Nov 28 13:17:05 FOXTRAL kernel: [    4.718786] usb 1-1.3: New USB device found, idVendor=0bda, idProduct=2838, bcdDevice= 1.00
+Nov 28 13:17:05 FOXTRAL kernel: [    4.724534] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 28 13:17:05 FOXTRAL kernel: [    4.727714] usb 1-1.3: Product: RTL2838UHIDIR
+Nov 28 13:17:05 FOXTRAL kernel: [    4.730507] usb 1-1.3: Manufacturer: Realtek
+Nov 28 13:17:05 FOXTRAL kernel: [    4.733211] usb 1-1.3: SerialNumber: 00000001
+Nov 28 13:17:05 FOXTRAL kernel: [    4.829256] usb 1-1.5: new full-speed USB device number 6 using dwc_otg
+Nov 28 13:17:05 FOXTRAL kernel: [    4.932170] usb 1-1.5: New USB device found, idVendor=1546, idProduct=01a7, bcdDevice= 1.00
+Nov 28 13:17:05 FOXTRAL kernel: [    4.937634] usb 1-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 28 13:17:05 FOXTRAL kernel: [    4.940551] usb 1-1.5: Product: u-blox 7 - GPS/GNSS Receiver
+Nov 28 13:17:05 FOXTRAL kernel: [    4.943414] usb 1-1.5: Manufacturer: u-blox AG - www.u-blox.com
+Nov 28 13:17:05 FOXTRAL kernel: [    6.016750] fuse: init (API version 7.34)
+Nov 28 13:17:05 FOXTRAL kernel: [    6.193042] i2c_dev: i2c /dev entries driver
+Nov 28 13:17:05 FOXTRAL kernel: [    6.717577] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null). Quota mode: none.
+Nov 28 13:17:05 FOXTRAL kernel: [    7.896678] vc_sm_cma: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 28 13:17:05 FOXTRAL kernel: [    7.900427] mc: Linux media interface: v0.10
+Nov 28 13:17:05 FOXTRAL kernel: [    7.903577] bcm2835_vc_sm_cma_probe: Videocore shared memory driver
+Nov 28 13:17:05 FOXTRAL kernel: [    7.903641] [vc_sm_connected_init]: start
+Nov 28 13:17:05 FOXTRAL kernel: [    7.913859] [vc_sm_connected_init]: installed successfully
+Nov 28 13:17:05 FOXTRAL kernel: [    7.947640] videodev: Linux video capture interface: v2.00
+Nov 28 13:17:05 FOXTRAL kernel: [    7.979602] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 28 13:17:05 FOXTRAL kernel: [    8.001607] bcm2835_audio bcm2835_audio: card created with 8 channels
+Nov 28 13:17:05 FOXTRAL kernel: [    8.029583] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 28 13:17:05 FOXTRAL kernel: [    8.029583] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 28 13:17:05 FOXTRAL kernel: [    8.029686] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 28 13:17:05 FOXTRAL kernel: [    8.042383] bcm2835_v4l2: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 28 13:17:05 FOXTRAL kernel: [    8.044446] bcm2835_isp: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 28 13:17:05 FOXTRAL kernel: [    8.047747] bcm2835_codec: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 28 13:17:05 FOXTRAL kernel: [    8.070654] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video13
+Nov 28 13:17:05 FOXTRAL kernel: [    8.071708] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video14
+Nov 28 13:17:05 FOXTRAL kernel: [    8.072953] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video15
+Nov 28 13:17:05 FOXTRAL kernel: [    8.079904] bcm2835-codec bcm2835-codec: Device registered as /dev/video10
+Nov 28 13:17:05 FOXTRAL kernel: [    8.080005] bcm2835-codec bcm2835-codec: Loaded V4L2 decode
+Nov 28 13:17:05 FOXTRAL kernel: [    8.083843] bcm2835-codec bcm2835-codec: Device registered as /dev/video11
+Nov 28 13:17:05 FOXTRAL kernel: [    8.083920] bcm2835-codec bcm2835-codec: Loaded V4L2 encode
+Nov 28 13:17:05 FOXTRAL kernel: [    8.088537] bcm2835-codec bcm2835-codec: Device registered as /dev/video12
+Nov 28 13:17:05 FOXTRAL kernel: [    8.088626] bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+Nov 28 13:17:05 FOXTRAL kernel: [    8.096817] bcm2835-codec bcm2835-codec: Device registered as /dev/video18
+Nov 28 13:17:05 FOXTRAL kernel: [    8.096900] bcm2835-codec bcm2835-codec: Loaded V4L2 image_fx
+Nov 28 13:17:05 FOXTRAL kernel: [    8.097626] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video16
+Nov 28 13:17:05 FOXTRAL kernel: [    8.097678] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Nov 28 13:17:05 FOXTRAL kernel: [    8.097729] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Nov 28 13:17:05 FOXTRAL kernel: [    8.097760] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Nov 28 13:17:05 FOXTRAL kernel: [    8.097789] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Nov 28 13:17:05 FOXTRAL kernel: [    8.113018] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video20
+Nov 28 13:17:05 FOXTRAL kernel: [    8.114182] bcm2835-codec bcm2835-codec: Device registered as /dev/video31
+Nov 28 13:17:05 FOXTRAL kernel: [    8.114242] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video21
+Nov 28 13:17:05 FOXTRAL kernel: [    8.114288] bcm2835-codec bcm2835-codec: Loaded V4L2 encode_image
+Nov 28 13:17:05 FOXTRAL kernel: [    8.114791] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video22
+Nov 28 13:17:05 FOXTRAL kernel: [    8.115268] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video23
+Nov 28 13:17:05 FOXTRAL kernel: [    8.115313] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Nov 28 13:17:05 FOXTRAL kernel: [    8.115347] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Nov 28 13:17:05 FOXTRAL kernel: [    8.115392] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Nov 28 13:17:05 FOXTRAL kernel: [    8.115421] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Nov 28 13:17:05 FOXTRAL kernel: [    8.115728] bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp
+Nov 28 13:17:05 FOXTRAL kernel: [    8.525513] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Nov 28 13:17:05 FOXTRAL kernel: [    8.580294] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Nov 28 13:17:05 FOXTRAL kernel: [    8.688393] cfg80211: loaded regulatory.db is malformed or signature is missing/invalid
+Nov 28 13:17:05 FOXTRAL kernel: [    8.813458] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Nov 28 13:17:05 FOXTRAL kernel: [    8.846841] cdc_acm 1-1.5:1.0: ttyACM0: USB ACM device
+Nov 28 13:17:05 FOXTRAL kernel: [    8.847137] usbcore: registered new interface driver cdc_acm
+Nov 28 13:17:05 FOXTRAL kernel: [    8.847158] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Nov 28 13:17:05 FOXTRAL kernel: [    8.853529] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 28 13:17:05 FOXTRAL kernel: [    8.854848] usbcore: registered new interface driver brcmfmac
+Nov 28 13:17:05 FOXTRAL kernel: [    8.855619] brcmfmac mmc1:0001:1: Direct firmware load for brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.bin failed with error -2
+Nov 28 13:17:05 FOXTRAL kernel: [    9.097610] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 28 13:17:05 FOXTRAL kernel: [    9.097854] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 28 13:17:05 FOXTRAL kernel: [    9.109903] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43430/1 wl0: Jul 19 2021 03:24:18 version 7.45.98 (TOB) (56df937 CY) FWID 01-8e14b897
+Nov 28 13:17:05 FOXTRAL kernel: [   10.757203] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Nov 28 13:17:05 FOXTRAL kernel: [   10.919327] smsc95xx 1-1.1:1.0 eth0: Link is Down
+Nov 28 13:17:07 FOXTRAL kernel: [   12.784798] IPv6: ADDRCONF(NETDEV_CHANGE): ap0: link becomes ready
